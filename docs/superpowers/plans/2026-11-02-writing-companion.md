@@ -43,5 +43,5 @@ Consumes: complete package. Produces: tested installation and honest limits.
 - [x] Record ordinary-assistant baseline on synthetic paper and memo tasks.
 - [x] Run fresh-context companion scenarios; inspect reports and recheck failures.
 - [x] Run upstream suite; distinguish existing platform failures from regressions.
-- [ ] Commit and push the feature branch to the requested fork, then install that branch's companion.
-- [ ] Verify installed resources and report invocation to the owner.
+- [x] Commit and push the feature branch to the requested fork, then install that branch's companion.
+- [x] Verify installed resources and report invocation to the owner.

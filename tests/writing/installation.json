@@ -1,0 +1,18 @@
+{
+  "plugin_id": "egm-writing@egm-writing-fork",
+  "version": "0.1.0",
+  "installed": true,
+  "enabled": true,
+  "branch": "feat/writing-companion",
+  "package_commit": "5dc8533",
+  "source": "https://github.com/dyannantuonojr/elephant-goldfish-writing",
+  "installed_path": "C:\\Users\\dyann\\.codex\\plugins\\cache\\egm-writing-fork\\egm-writing\\0.1.0",
+  "byte_verified_files": 14,
+  "skill": "egm-write",
+  "providers_added": 0,
+  "runtime_limits": [
+    "Load skill in a new chat/session",
+    "Independent review requires actual fresh-context delegation",
+    "DOCX/PDF layout requires available document tools and actual render inspection"
+  ]
+}
