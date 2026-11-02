@@ -1,130 +1,97 @@
-> **Writing fork:** The independently installable [Elephant-Goldfish Writing companion](https://github.com/dyannantuonojr/elephant-goldfish-writing/tree/feat/writing-companion/writing-companion) adds papers and professional documents. The original software workflow below is unchanged.
+# Elephant-Goldfish Writing
 
-<p align="center">
-  <a href="https://egm.dev"><img src="docs/assets/readme-header.svg" width="480" height="116" alt="Elephant-Goldfish Model"></a>
-</p>
+**Write papers and work documents with a writer that remembers and reviewers that read with fresh eyes.**
 
-<p align="center">Design with an elephant. Review with a goldfish.</p>
+This is a community writing fork of [Google's Elephant-Goldfish Model](https://github.com/google/elephant-goldfish-model). It adapts EGM for academic papers, reports, memos, proposals and other professional documents, with an attributed adaptation of Wallace and Wray's critical reading and writing principles. It is maintained independently by the fork owner and is not an officially supported Google product.
 
-<p align="center">
-  <a href="#install">Install</a> &ensp;·&ensp;
-  <a href="#try-your-first-design">Quickstart</a> &ensp;·&ensp;
-  <a href="docs/getting_started.md">Documentation</a> &ensp;·&ensp;
-  <a href="https://egm.dev">Website</a>
-</p>
+## Start writing
 
-<br>
+### In Orca
 
-Thousands of Google engineers use EGM, an open-source plugin, to draft specs with deep-context agents and stress-test them with zero-context subagents before writing code.
+On the owner's configured Orca installation:
 
-**Elephant** holds your project context and drafts the specification. **Goldfish** reviewers examine the draft and referenced source material without the earlier conversation, helping expose unstated assumptions and blind spots. **You** make the architectural trade-offs and approve the specification before implementing.
+1. Open the **Writing Companion** workspace under **elephant-goldfish-writing**.
+2. Click **Start writing** at the top of the workspace.
+3. Say what you want to write and attach your instructions, sources, examples or draft.
 
-Use it when a feature needs design decisions before implementation. For a small, clear bug fix, use your normal coding workflow.
+The saved Agent Prompt invokes the writing skill in Codex. It is an Orca setting on that computer; cloning this repository does not automatically create the button. On another Orca installation, add a project-scoped Quick Command with action **Agent Prompt**, agent **Codex**, and prompt `$egm-write Help me write or revise a paper or work document.` after installing the plugin below.
 
-## Install
+### In Codex
 
-Choose your coding agent. Install the complete plugin so its skills can read the reviewer prompts and document standards.
-
-### Antigravity CLI
+Install the writing companion from this fork:
 
 ```sh
-agy plugin install https://github.com/google/elephant-goldfish-model
+codex plugin marketplace add dyannantuonojr/elephant-goldfish-writing
+codex plugin add egm-writing@egm-writing-fork
 ```
 
-For the **Antigravity App** and **Antigravity for IDEs** (Visual Studio Code extension), run `/plugin` or see the [installation instructions](docs/harnesses.md#antigravity-app-and-antigravity-for-ides).
-
-### Claude Code
-
-```sh
-claude plugin marketplace add google/elephant-goldfish-model
-claude plugin install egm@egm
-```
-
-### Codex
-
-```sh
-codex plugin marketplace add google/elephant-goldfish-model
-codex plugin add egm@egm
-```
-
-Start a new session after installation. For **Claude Cowork** and **ChatGPT Work**, see the [setup guide](docs/harnesses.md).
-
-## Try your first design
-
-Open your project in your coding agent and choose a feature that needs design decisions. This example adds webhook delivery: what should happen when a delivery fails, or the same event arrives twice?
-
-The commands below are shown without a prefix. In Antigravity (agy CLI) and Claude Code, add the `/egm:` prefix, for example `/egm:egm-brainstorm`. On agy CLI 1.4.10 an unprefixed name is completed to the prefixed command ([#220](https://github.com/google/elephant-goldfish-model/issues/220)), but 1.4.8 does not ([#196](https://github.com/google/elephant-goldfish-model/issues/196)), so keep the prefix. In Codex, select the corresponding EGM skill from the skill picker. Brainstorming and review require a session that can create fresh subagents.
-
-<img src="skills/egm-brainstorm/assets/icon.svg" width="20" height="20" align="top" alt=""> **Explore the idea**
+Start a new chat/session after installation. Select **Elephant-Goldfish Writing** from the skill picker, or type:
 
 ```text
-/egm-brainstorm Add webhook delivery to this project.
+$egm-write Help me write this paper using my assignment and sources.
 ```
 
-Discuss requirements and trade-offs with the agent. Fresh reviewers challenge the proposal, and the agent saves the agreed direction in `concepts_brief.md`.
-
-<img src="skills/egm-draft/assets/icon.svg" width="20" height="20" align="top" alt=""> **Draft the specification**
+For a work document:
 
 ```text
-/egm-draft
+$egm-write Review and revise this report for leadership.
 ```
 
-The agent turns the brief into `design_draft.md`, pausing after each section for your feedback in chat.
+Supply whatever you already have: the task or assignment, rubric, audience, sources, examples, feedback and an existing draft. You do not need a long setup prompt. Continue in the same writing chat so decisions and revision history remain available.
 
-<img src="skills/egm-review/assets/icon.svg" width="20" height="20" align="top" alt=""> **Review the draft**
-
-```text
-/egm-review design_draft.md
-```
-
-Use the draft path returned by the agent.
-
-Fresh reviewers check the design, its clarity, its fit with the code, and its implementation plan. Choose which findings to address. When you approve the design, ask your coding agent to implement it.
-
-See the [workflow guide](docs/getting_started.md) for the full process, including saving approved specifications under `docs/designs/`.
+**Windows Developer Mode is not required to use the companion.** Some developer packaging tests require real symlink permissions; see [the testing prerequisite](https://github.com/dyannantuonojr/elephant-goldfish-writing/blob/feat/writing-companion/TESTING.md#windows-symlink-prerequisite).
 
 ## How it works
 
-<table>
-  <thead><tr><th align="left">Role</th><th align="left">Context</th><th align="left">Responsibility</th></tr></thead>
-  <tbody>
-    <tr valign="top"><td><strong>Elephant</strong></td><td>Your project, requirements, and earlier decisions</td><td>Explore the problem and draft the specification.</td></tr>
-    <tr valign="top"><td><strong>Goldfish</strong></td><td>The document and its referenced source material, without the earlier conversation</td><td>Find missing assumptions, unclear requirements, and implementation risks.</td></tr>
-    <tr valign="top"><td><strong>You</strong></td><td>The goals and constraints that matter</td><td>Resolve trade-offs, approve the design, and decide what to build.</td></tr>
-  </tbody>
-</table>
+- **Elephant:** one persistent writer keeps the brief, source evaluations, argument, your voice and revision decisions.
+- **Goldfish:** fresh-context readers inspect the actual draft, requirements and original sources without the writer's earlier conversation or private rationale.
+- **You:** supply your goals and private facts, resolve consequential choices and decide whether to accept or use the document.
 
-Goldfish reviews require fresh subagent contexts. If your agent cannot create them, EGM stops the review. A review does not replace tests or human judgment. See [supported environments and verification limits](docs/harnesses.md#support-status--contributing-other-harnesses).
+For a new substantial document, the writer challenges the proposed thesis and outline, drafts purpose-led sections, and assembles a connected whole. Full review then follows five ordered stages:
 
-## Choose a skill
+1. **Initial zoom-out:** does the document answer the right question at the right scope?
+2. **Comprehension:** can a fresh reader accurately paraphrase the claim, reasoning, limits and next action?
+3. **Detailed critique:** independent evidence, argument and reader checks, followed by synthesis that preserves every original finding and disagreement.
+4. **Second zoom-out:** do the revisions still develop one coherent argument?
+5. **Delivery readiness:** what does the actual document support, and what remains missing or unverified?
 
-You can use each skill when you need it. You do not have to follow the full sequence.
+The same writer resolves findings and makes authorized revisions. Original reports, complete paraphrases, draft versions, source ledgers and review scope are preserved. Historical reviews are not relabelled as reviews of changed text.
 
-<table>
-  <thead><tr><th align="left">Skill</th><th align="left">Use it to…</th></tr></thead>
-  <tbody>
-    <tr valign="top"><td width="160" valign="top"><img src="skills/egm-brainstorm/assets/icon.svg" width="20" height="20" alt="" align="top">&nbsp;<a href="skills/egm-brainstorm/SKILL.md">Brainstorm</a></td><td>Test an idea and write a concept brief.</td></tr>
-    <tr valign="top"><td width="160" valign="top"><img src="skills/egm-draft/assets/icon.svg" width="20" height="20" alt="" align="top">&nbsp;<a href="skills/egm-draft/SKILL.md">Draft</a></td><td>Turn a brief or existing notes into a design document.</td></tr>
-    <tr valign="top"><td width="160" valign="top"><img src="skills/egm-resolve/assets/icon.svg" width="20" height="20" alt="" align="top">&nbsp;<a href="skills/egm-resolve/SKILL.md">Resolve</a></td><td>Work through review findings and agree on changes.</td></tr>
-    <tr valign="top"><td width="160" valign="top"><img src="skills/egm-bootstrap/assets/icon.svg" width="20" height="20" alt="" align="top">&nbsp;<a href="skills/egm-bootstrap/SKILL.md">Bootstrap</a></td><td>Create or update documentation for an existing codebase.</td></tr>
-    <tr valign="top"><td width="160" valign="top"><img src="skills/egm-review/assets/icon.svg" width="20" height="20" alt="" align="top">&nbsp;<a href="skills/egm-review/SKILL.md">Review</a></td><td>Review a design with fresh agents across five stages.</td></tr>
-    <tr valign="top"><td width="160" valign="top"><img src="skills/egm-review-loop/assets/icon.svg" width="20" height="20" alt="" align="top">&nbsp;<a href="skills/egm-review-loop/SKILL.md">Review&nbsp;loop</a></td><td>Run a configured group of reviewers for a specific review task.</td></tr>
-    <tr valign="top"><td width="160" valign="top"><img src="skills/egm-drift-report/assets/icon.svg" width="20" height="20" alt="" align="top">&nbsp;<a href="skills/egm-drift-report/SKILL.md">Drift&nbsp;report</a></td><td>Compare checked-in documents with the current source code.</td></tr>
-  </tbody>
-</table>
+## Choose the scope
 
-## Learn more
+| Ask for | What happens |
+| --- | --- |
+| **Full** | Default for substantial work: all five stages, one detailed critique/revision round and bounded focused rechecks. |
+| **Review only** | Findings and review records; your draft is not rewritten. |
+| **Quick edit** | A small requested edit stays small, with self-review labelled honestly. |
+| **Deep** | Up to five critique rounds; convergence requires two consecutive clean rounds, and opposing-fix churn stops the loop. |
+| **Drift check** | Compare actual revisions and source/requirement changes for unsupported additions, lost qualifications and regressions. |
 
-- [Getting started](docs/getting_started.md): the workflow and project layout.
-- [Setup](docs/harnesses.md): installation, agent capabilities, and known limits.
-- [Architecture](https://github.com/google/elephant-goldfish-model/blob/main/docs/designs/architecture.md): how skills and reviewers fit together.
-- [Testing](https://github.com/google/elephant-goldfish-model/blob/main/TESTING.md): checks, execution records, and verification limits.
-- [Dave Rensin’s original essay](https://medium.com/@drensin/elephants-goldfish-and-the-new-golden-age-of-software-engineering-c33641a48874): the ideas behind EGM.
+Existing drafts enter at review rather than pretending ideation already happened. Use ordinary language, for example `$egm-write Quick edit: make this memo clearer.`
 
-## Contribute
+## Wallace and Wray throughout
 
-Read [contributing](https://github.com/google/elephant-goldfish-model/blob/main/CONTRIBUTING.md) for PRs, [issues](https://github.com/google/elephant-goldfish-model/issues) for bugs, and [discussions](https://github.com/google/elephant-goldfish-model/discussions) for questions.
+The writing standards cover source purpose and quality, strength of backing, comparison and synthesis, paragraph connections, the whole argument and conclusions that stay within the evidence. Actual passages and reasoning support judgments; transition-word counts and reviewer agreement do not establish quality.
+
+This is an [attributed adaptation](https://github.com/dyannantuonojr/elephant-goldfish-writing/blob/feat/writing-companion/writing-companion/resources/wallace-wray.md), not an official Wallace-Wray scoring system. A supplied model can guide structure and depth; it does not verify facts or supply personal experience.
+
+## Capabilities and limits
+
+The companion is a host-executed skill package, not a standalone word processor or a new autonomous agent runtime. Independent Goldfish reviews require a host that can create actual fresh subagent contexts. If unavailable, independent review is reported as not run; self-review is not presented as independent agreement.
+
+The writing package adds no research-provider service, MCP server or separate API credentials. It does not invent sources, citations, private facts or owner answers. Word/PDF output uses available document tools; rendered acceptance requires inspection of the exact output. Writing/review completion is separate from a grade, owner acceptance, business authority or permission to publish, send or submit.
+
+Installation and workflow trials were exercised in Codex. Other hosts can read the portable resources, but their writing-companion installation and orchestration are not verified. This standalone fork has no 2JZ80 dependency.
+
+## Package and documentation
+
+- [Writing companion package and detailed usage](https://github.com/dyannantuonojr/elephant-goldfish-writing/tree/feat/writing-companion/writing-companion)
+- [Staged workflow and revision rules](https://github.com/dyannantuonojr/elephant-goldfish-writing/blob/feat/writing-companion/writing-companion/resources/staged-workflow.md)
+- [Implementation and validation record](https://github.com/dyannantuonojr/elephant-goldfish-writing/blob/feat/writing-companion/tests/writing/stages-validation.md)
+- [Fork testing guide](https://github.com/dyannantuonojr/elephant-goldfish-writing/blob/feat/writing-companion/TESTING.md)
+
+The marketplace exposes two distinct plugins: **egm-writing** is this writing companion; **egm** retains the original software-design workflow. The upstream software skills, documentation and attribution remain available. For that original workflow, see the [software getting-started guide](docs/getting_started.md) and [upstream project](https://github.com/google/elephant-goldfish-model).
 
 ## License
 
-[Apache 2.0](LICENSE). This is not an officially supported Google product.
+[Apache 2.0](LICENSE). Original EGM work is credited to its upstream contributors; writing-companion additions are maintained in this fork.

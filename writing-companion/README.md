@@ -4,16 +4,21 @@ A standalone community companion for academic papers and professional documents,
 
 ## Install in Codex
 
-Install from this fork's feature branch:
+Install from this fork's default writing branch:
 
 ```sh
-codex plugin marketplace add dyannantuonojr/elephant-goldfish-writing --ref feat/writing-companion
+codex plugin marketplace add dyannantuonojr/elephant-goldfish-writing
 codex plugin add egm-writing@egm-writing-fork
 ```
 
 Start a new chat/session to load the newly installed skill; existing active sessions do not need to restart. This package includes its own resources and has no upstream EGM runtime dependency or additional MCP server/API credentials. Native fresh-context delegation is required for independent Goldfish review. Other hosts can read the portable skill, but installation and orchestration outside Codex are not verified.
 
 ## Use
+
+On the owner's configured Orca installation, open **Writing Companion** under
+**elephant-goldfish-writing**, click **Start writing**, and describe your document
+or attach your materials. The button is a local Orca Agent Prompt setting; a
+repository clone alone does not install it.
 
 Select **Elephant-Goldfish Writing**, or invoke `$egm-write`:
 
