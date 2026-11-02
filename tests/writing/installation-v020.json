@@ -1,0 +1,17 @@
+{
+  "plugin_id": "egm-writing@egm-writing-fork",
+  "version": "0.2.0",
+  "installed": true,
+  "enabled": true,
+  "package_commit": "0359daa",
+  "installed_path": "C:\\Users\\dyann\\.codex\\plugins\\cache\\egm-writing-fork\\egm-writing\\0.2.0",
+  "byte_verified_files": 15,
+  "standard": "ww-adapted-v1",
+  "regressions": {
+    "runnable_passed": 238,
+    "known_windows_symlink_cases_deselected": 10
+  },
+  "fresh_reader_trial": "wallace-wray-workflow.json",
+  "source_basis": "wallace-wray-source-basis.json",
+  "activation": "New chat/session loads updated skill; existing chats not restarted"
+}

@@ -33,5 +33,5 @@
 
 - [x] Run fresh reviewer and writer trials, compare actual source use and returned checks.
 - [x] Run full regressions; retain the known Windows symlink limitation.
-- [ ] Push this fork branch, update its marketplace and install 0.2.0.
-- [ ] Verify installed source bytes and report what EGM pattern is actually implemented.
+- [x] Push this fork branch, update its marketplace and install 0.2.0.
+- [x] Verify installed source bytes and report what EGM pattern is actually implemented.
