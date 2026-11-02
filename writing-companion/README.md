@@ -44,3 +44,12 @@ New substantial documents use thesis/outline challenge and section-purpose draft
 - `Use $egm-write to check drift between these revisions and their source ledgers.`
 
 Full mode has one detailed critique/revision round and bounded targeted rechecks. Deep allows up to five critique rounds, needs two consecutive clean rounds for convergence and stops on churn. Settled discretionary findings stay settled unless evidence changes them; fixed defects can recur. Mandatory gaps never become accepted compliance. Final reporting distinguishes historical reviews, actual current-version checks and missing export evidence. Review-only and quick scopes remain honored.
+
+## Windows test prerequisite
+
+Running the full packaging test suite on Windows requires permission to create
+real symbolic links (Developer Mode or an appropriately elevated test process).
+This is a developer-test requirement, not a prerequisite for ordinary writing.
+See the [fork testing guide](https://github.com/dyannantuonojr/elephant-goldfish-writing/blob/feat/writing-companion/TESTING.md#windows-symlink-prerequisite)
+for setup, `WinError 1314` diagnosis and exact rerun commands. Keep failures
+visible until the real symlink assertions have run successfully.

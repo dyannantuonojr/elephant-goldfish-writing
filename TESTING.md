@@ -34,6 +34,39 @@ With Python 3.9 or older, `pytest` stops during test collection with `TypeError:
 
 ---
 
+## Windows symlink prerequisite
+
+The packaging security tests create real file, directory and dangling symbolic
+links. On Windows, the test process must be allowed to create symbolic links:
+enable **Developer Mode** in Windows Settings, or run the test terminal elevated
+with the **Create symbolic links** privilege. In Settings, search for
+**Developer Mode**, enable it, and complete any Windows administrator prompt
+yourself. Managed devices may require an administrator to allow this setting.
+See [Microsoft symbolic-link permissions](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-createsymboliclinka).
+
+This prerequisite is for the full packaging test suite; using the writing
+companion itself does not require Developer Mode.
+
+If link creation reports `WinError 1314` ("A required privilege is not held by
+the client"), test setup failed before the packaging assertion ran. Do not
+report these cases as passing, replace symlinks with ordinary files, or remove
+the unsafe-path protections to make the suite green.
+
+From the repository root in PowerShell, after the permission is available:
+
+```powershell
+# Verify all real symlink cases, including the archive race cases.
+.\.venv\Scripts\python.exe -m pytest tests/unit/test_packaging.py -k symlink -v
+
+# Then run the complete offline unit suite without exclusions.
+.\.venv\Scripts\python.exe -m pytest tests/unit -q
+```
+
+The fork's earlier ten `WinError 1314` results are historical environment
+failures, not evidence that these assertions passed. Rerun and record actual
+results after changing the permission. No security tests are automatically
+skipped by this documentation.
+
 ## Unit Tests
 
 Unit tests run offline without network access, API keys, or model
