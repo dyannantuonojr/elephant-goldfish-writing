@@ -1,0 +1,15 @@
+{
+  "stage_id": "CRITIQUE",
+  "round_id": "full-1",
+  "role": "argument",
+  "writer_identity": "/root/staged_full_trial",
+  "actual_task_identity": "/root/staged_full_trial/argument_reader",
+  "requested_context_mode": "fork_turns:none",
+  "target_version": "v001",
+  "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "status": "COMPLETE",
+  "report": "reviews/v001/CRITIQUE/1/argument.json",
+  "report_sha256": "8ccb1d9437f71a0de3bd9a9a2dbc7a7554075ad09b68d182baef98553223cc2e",
+  "hash_matches": true
+}

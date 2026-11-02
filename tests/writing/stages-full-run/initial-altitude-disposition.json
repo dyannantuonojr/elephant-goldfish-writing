@@ -1,0 +1,8 @@
+{
+  "source_report": "reviews/v001/ZOOM_OUT_INITIAL/1/report.json",
+  "findings": [],
+  "decision": "NO_CHANGE",
+  "basis": "No findings returned; source limitations are intentionally retained and recommendation remains bounded",
+  "version": "v001",
+  "sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c"
+}

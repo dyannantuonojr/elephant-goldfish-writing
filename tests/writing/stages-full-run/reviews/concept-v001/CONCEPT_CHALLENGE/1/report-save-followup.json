@@ -1,0 +1,5 @@
+{
+  "target": "concept_reader",
+  "message": "Preserve your original returned JSON verbatim in C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/reviews/concept-v001/CONCEPT_CHALLENGE/1/report.json. This authorizes writing only that report artifact, no manuscript changes. Use node_repl fs or require_escalated shell if needed. Reply saved path and actual SHA256.",
+  "note": "Same reader resumed only to preserve already-returned original JSON, not counted as fresh additional review"
+}

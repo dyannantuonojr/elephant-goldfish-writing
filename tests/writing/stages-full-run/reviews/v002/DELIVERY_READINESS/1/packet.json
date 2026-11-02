@@ -1,0 +1,21 @@
+{
+  "stage_id": "DELIVERY_READINESS",
+  "round_id": "full-1",
+  "target": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/draft-v002.md",
+  "version": "v002",
+  "sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "brief": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/brief.md",
+  "sources": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/sources.md",
+  "standards": [
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/work.md",
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/wallace-wray.md",
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/review-contract.md",
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/staged-workflow.md"
+  ],
+  "excluded": [
+    "writer notes",
+    "other reports",
+    "expected findings"
+  ],
+  "source_access": "Only complete synthetic supplied records; no full supplier data"
+}

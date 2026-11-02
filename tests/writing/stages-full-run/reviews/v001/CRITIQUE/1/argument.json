@@ -1,0 +1,156 @@
+{
+  "reviewer": "argument",
+  "status": "COMPLETE",
+  "stage_id": "CRITIQUE",
+  "round_id": "full-1",
+  "reviewed_version": "v001",
+  "reviewed_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "coverage": [
+    "Entire draft: title, opening recommendation, Benefits worth testing, Cost and operational conditions, Ownership and next evidence, and conclusion; all seven substantive paragraphs.",
+    "Entire neutral brief.md: leadership decision, benefits/limits, costs, risk, ownership, evidence and modest commitments.",
+    "Entire original sources.md: S1 planning assumptions, S2 supplier demonstration summary, S3 operational constraints.",
+    "Argument persona, review contract, staged workflow/pipeline policy, work standard and Wallace-Wray adaptation."
+  ],
+  "findings": [],
+  "gaps": [
+    "S2 underlying data/full report and comparison-group evidence are unavailable; the draft explicitly retains this limitation.",
+    "Currency code, taxes, contract/training/implementation costs, labor valuation, integration test, deployment owner, budget and approved release of client records remain unknown or absent under S1/S3. These limit a trial/purchase decision, while the recommendation is only to scope an assessment."
+  ],
+  "readiness": "READY_WITHIN_REVIEWED_SCOPE",
+  "argument_reconstruction": {
+    "question": "What next decision is justified about document assistance for an 80-person team?",
+    "main_claim": "Sponsor scoping a bounded assessment; do not commit to procurement, pilot spending or rollout.",
+    "reasons": [
+      "The supplier signal makes drafting assistance worth investigating but does not establish transferable net benefit.",
+      "License arithmetic gives a partial planning baseline; unknown full costs and financial benefits prevent an investment conclusion.",
+      "Information handling, integration and ownership require a plan before funding a trial."
+    ],
+    "warrants": [
+      "A short uncontrolled volunteer demonstration supports a question for testing, not a firm-wide benefit forecast.",
+      "Net task benefit must include checking/correction and quality; capacity is not automatically cash savings.",
+      "Unresolved operational conditions justify assessment planning rather than deployment."
+    ],
+    "alternative_and_boundaries": "The closing decision expressly retains existing practice as preferable if a trial is not justified. No current compliance assurance, approved budget, named owner or outcome is invented."
+  },
+  "paragraph_functions": [
+    {
+      "location": "Substantive paragraph 1",
+      "function": "States the limited next decision and why rollout lacks backing."
+    },
+    {
+      "location": "Substantive paragraph 2",
+      "function": "Assesses the supplier signal, study design and transfer limits."
+    },
+    {
+      "location": "Substantive paragraph 3",
+      "function": "Derives an appropriate comparison and financial boundary from those measurement limits."
+    },
+    {
+      "location": "Substantive paragraph 4",
+      "function": "Establishes license arithmetic while distinguishing a planning assumption from full cost and funding."
+    },
+    {
+      "location": "Substantive paragraph 5",
+      "function": "Shows why cost does not resolve operational feasibility; proposes conditional safeguards."
+    },
+    {
+      "location": "Substantive paragraph 6",
+      "function": "Assigns the next planning responsibility without inventing an incumbent or deadline."
+    },
+    {
+      "location": "Substantive paragraph 7",
+      "function": "Connects the proposed measurements and conditions to a later decision, including retaining current practice."
+    }
+  ],
+  "prose_links": {
+    "adjacent_paragraph_evidence": {
+      "status": "CHECKED",
+      "pairs": [
+        {
+          "first_location": "Benefits worth testing, paragraph 1 (substantive paragraph 2)",
+          "first_quotation": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2). This is a reason to investigate drafting assistance, rather than a forecast for our team. There was no comparison group, and the demonstration did not measure classification accuracy, review effort, profit or firm-wide outcomes. Volunteer selection and the legal-office setting also limit transfer to an 80-person professional-service team. The full report and underlying data are unavailable.",
+          "second_location": "Benefits worth testing, paragraph 2 (substantive paragraph 3)",
+          "second_quotation": "Faster initial drafting could release capacity, but the useful benefit depends on the effort required to check and correct outputs. An assessment should therefore compare total task time and output quality against existing practice on comparable work. Released hours would remain capacity unless a separately evidenced route to cash savings or additional revenue exists; neither labor valuation nor realized financial benefit is supplied (S1–S2).",
+          "dependency": "The first paragraph identifies what the demonstration did not establish, especially review effort and transferable outcomes. The second turns those omissions into the assessment comparison: total task time and quality, with no assumed financial return. This is a conceptual inference from missing outcome measures to appropriate evaluation design."
+        },
+        {
+          "first_location": "Cost and operational conditions, paragraph 1 (substantive paragraph 4)",
+          "first_quotation": "At the planning assumption of $20 per user per month, licenses for 80 users would total $1,600 monthly, or $19,200 for twelve months (S1). These figures use the supplied dollar symbol; the currency code is unspecified. They exclude unknown taxes, contract terms, training and implementation costs and are not an authenticated supplier quote. A smaller assessment's license cost would depend on its participant count and terms; no evaluation budget is approved (S3).",
+          "second_location": "Cost and operational conditions, paragraph 2 (substantive paragraph 5)",
+          "second_quotation": "Costs alone cannot settle whether a trial is feasible. No integration test or deployment owner is established, and records may contain restricted client information (S3). The assessment plan should define permitted test material, access controls, review responsibilities and a way to stop work if information-handling or quality concerns arise. These are proposed safeguards to assess, not an assertion of legal compliance or approval to release client records.",
+          "dependency": "After exposing the partial financial baseline, the next paragraph introduces independent feasibility constraints from S3. The inference correctly prevents apparently affordable license costs from settling information-handling, integration or accountability questions."
+        }
+      ]
+    },
+    "conclusion_linkage": {
+      "location": "Ownership and next evidence, concluding paragraph (substantive paragraph 7)",
+      "quotation": "The subsequent decision should consider measured end-to-end time, correction effort, quality, integration feasibility and full costs. Leadership could then decide whether a bounded trial is justified or whether existing practice remains preferable. The present evidence supports scoping that decision, with no procurement commitment or rollout date.",
+      "main_claim_quotation": "Leadership should sponsor scoping a bounded assessment of document assistance for the 80-person team.",
+      "linkage": "The conclusion combines the benefit test derived in paragraphs 2–3, full-cost limits in paragraph 4 and feasibility conditions in paragraph 5. Paragraph 6 makes the planning step actionable through an explicitly unassigned lead. The final recommendation remains assessment scoping and permits existing practice, so it does not convert a supplier signal into a promised benefit or funding authority."
+    }
+  },
+  "ww_review": {
+    "standard_version": "ww-adapted-v1",
+    "checks": [
+      {
+        "id": "WW-03",
+        "status": "CHECKED",
+        "basis": "The supplied records serve different purposes rather than providing competing comparable experiments. The draft juxtaposes the supplier promotional demonstration (S2: volunteer legal-office participants, two weeks, no control, unavailable full report) with the team scale and incomplete financial assumptions (S1) and local feasibility constraints (S3). It uses those differences to limit transfer and derive the next evidence need, without forcing agreement or claiming independent validation.",
+        "evidence": [
+          {
+            "location": "Benefits worth testing, first paragraph",
+            "quotation": "Volunteer selection and the legal-office setting also limit transfer to an 80-person professional-service team."
+          },
+          {
+            "location": "Benefits worth testing, second paragraph",
+            "quotation": "Released hours would remain capacity unless a separately evidenced route to cash savings or additional revenue exists; neither labor valuation nor realized financial benefit is supplied (S1–S2)."
+          }
+        ],
+        "source_refs": [
+          "sources.md S1, entire planning-assumptions paragraph",
+          "sources.md S2, entire supplier-demonstration paragraph",
+          "sources.md S3, entire operational-constraints paragraph"
+        ]
+      },
+      {
+        "id": "WW-04",
+        "status": "CHECKED",
+        "basis": "Each of the seven paragraphs has a distinct contribution recorded in paragraph_functions. Actual neighboring prose moves from the demonstration’s measurement limits to a comparison design, then from financial limits to operational feasibility. The final ownership paragraph provides the dependency for obtaining the evidence named in the conclusion.",
+        "evidence": [
+          {
+            "location": "Benefits worth testing, first paragraph",
+            "quotation": "There was no comparison group, and the demonstration did not measure classification accuracy, review effort, profit or firm-wide outcomes."
+          },
+          {
+            "location": "Benefits worth testing, adjacent second paragraph",
+            "quotation": "An assessment should therefore compare total task time and output quality against existing practice on comparable work."
+          }
+        ],
+        "source_refs": [
+          "sources.md S2; unmeasured review effort and outcomes",
+          "sources.md S3; no established integration test or deployment owner"
+        ]
+      },
+      {
+        "id": "WW-05",
+        "status": "CHECKED",
+        "basis": "The question is answered at the opening and remains bounded through the conclusion. Reasons support planning rather than purchase: weak transfer evidence, incomplete cost/benefit information and operational dependencies. The conclusion integrates those reasons into the later evidence requirement and retains the alternative of existing practice. Assessment measures are proposed future evidence, not reported outcomes.",
+        "evidence": [
+          {
+            "location": "Opening paragraph",
+            "quotation": "The next decision is whether to develop that assessment plan; this report does not request a purchase or authorize pilot spending."
+          },
+          {
+            "location": "Conclusion",
+            "quotation": "Leadership could then decide whether a bounded trial is justified or whether existing practice remains preferable. The present evidence supports scoping that decision, with no procurement commitment or rollout date."
+          }
+        ],
+        "source_refs": [
+          "sources.md S1; cost/valuation limits",
+          "sources.md S2; demonstration scope and absent outcomes",
+          "sources.md S3; leadership may sponsor scoping, no budget/procurement/rollout approval"
+        ]
+      }
+    ]
+  }
+}

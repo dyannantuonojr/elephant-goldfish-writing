@@ -1,0 +1,87 @@
+{
+  "writer": "/root/staged_full_trial",
+  "preset": "full",
+  "completed_receipts": [
+    {
+      "stage_id": "CONCEPT_CHALLENGE",
+      "round_id": "full-1",
+      "writer_identity": "/root/staged_full_trial",
+      "actual_task_identity": "/root/staged_full_trial/concept_reader",
+      "requested_context_mode": "fork_turns:none",
+      "target_version": "concept-v001",
+      "target_sha256": "9b78f71e37313cc0cc52e7afa09fbe8cd9b89af1df94ce64257ebf6148af73a8",
+      "returned_sha256": "9b78f71e37313cc0cc52e7afa09fbe8cd9b89af1df94ce64257ebf6148af73a8",
+      "status": "COMPLETE",
+      "report": "reviews/concept-v001/CONCEPT_CHALLENGE/1/report.json",
+      "report_sha256": "e7fa0c9cbe62d685c32838829e6b6886b8eb88c997dde1b8f18a46564a778dd3",
+      "hash_matches": true
+    },
+    {
+      "stage_id": "ZOOM_OUT_INITIAL",
+      "round_id": "full-1",
+      "writer_identity": "/root/staged_full_trial",
+      "actual_task_identity": "/root/staged_full_trial/initial_altitude",
+      "requested_context_mode": "fork_turns:none",
+      "target_version": "v001",
+      "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "status": "COMPLETE",
+      "report": "reviews/v001/ZOOM_OUT_INITIAL/1/report.json",
+      "report_sha256": "41c4d20f89332ad7b15d5eb0313e99351643efef3c3cb941c17ec2cf4bb91f5c",
+      "hash_matches": true
+    },
+    {
+      "stage_id": "COMPREHENSION",
+      "round_id": "full-1",
+      "writer_identity": "/root/staged_full_trial",
+      "actual_task_identity": "/root/staged_full_trial/comprehension_reader",
+      "requested_context_mode": "fork_turns:none",
+      "target_version": "v001",
+      "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "status": "COMPLETE",
+      "report": "reviews/v001/COMPREHENSION/1/report.json",
+      "report_sha256": "a22839edb054d101e2fd84c81ba42971860fadc0da26795e1cda7d7c2ef5cd4f",
+      "hash_matches": true
+    },
+    {
+      "stage_id": "CRITIQUE",
+      "round_id": "full-1",
+      "role": "evidence",
+      "writer_identity": "/root/staged_full_trial",
+      "actual_task_identity": "/root/staged_full_trial/evidence_reader",
+      "requested_context_mode": "fork_turns:none",
+      "target_version": "v001",
+      "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "status": "COMPLETE",
+      "report": "reviews/v001/CRITIQUE/1/evidence.json",
+      "report_sha256": "518ecb09f2b4c0e80d5b8ce456b067dcc08ef045ba990de721ab6f3332b875bb",
+      "hash_matches": true
+    },
+    {
+      "stage_id": "CRITIQUE",
+      "round_id": "full-1",
+      "role": "argument",
+      "writer_identity": "/root/staged_full_trial",
+      "actual_task_identity": "/root/staged_full_trial/argument_reader",
+      "requested_context_mode": "fork_turns:none",
+      "target_version": "v001",
+      "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "status": "COMPLETE",
+      "report": "reviews/v001/CRITIQUE/1/argument.json",
+      "report_sha256": "8ccb1d9437f71a0de3bd9a9a2dbc7a7554075ad09b68d182baef98553223cc2e",
+      "hash_matches": true
+    }
+  ],
+  "active_task": "/root/staged_full_trial/requirements_reader",
+  "pending": [
+    "CRITIQUE synthesis",
+    "author disposition/revision",
+    "targeted evidence if needed",
+    "ZOOM_OUT_FINAL",
+    "DELIVERY_READINESS"
+  ],
+  "observed_at": "2026-11-02T22:22:04.749Z"
+}

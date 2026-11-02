@@ -1,0 +1,8 @@
+{
+  "initial": "reviews/v001/ZOOM_OUT_INITIAL/1/report.json",
+  "final": "reviews/v002/ZOOM_OUT_FINAL/1/report.json",
+  "initial_findings": [],
+  "final_findings": [],
+  "recurrence": [],
+  "author_judgment": "No new scope/redundancy/closure defect reported; central modest scoping recommendation unchanged; report does not certify detailed citation fixes"
+}

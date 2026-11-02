@@ -25,14 +25,14 @@
 
 ## Task 1: Stage package
 
-- [ ] Inventory 0.2.0 behavior and add failing package/pipeline checks.
-- [ ] Add pipeline policy and reference covering concept challenge, section construction and five reviews.
-- [ ] Add big-picture, comprehension, readiness and synthesizer personas; keep existing critique roles and Wallace-Wray.
-- [ ] Align entry skill, contract, README and 0.3.0 metadata; verify package closure and policy ordering.
+- [x] Inventory 0.2.0 behavior and add failing package/pipeline checks.
+- [x] Add pipeline policy and reference covering concept challenge, section construction and five reviews.
+- [x] Add big-picture, comprehension, readiness and synthesizer personas; keep existing critique roles and Wallace-Wray.
+- [x] Align entry skill, contract, README and 0.3.0 metadata; verify package closure and policy ordering.
 
 ## Task 2: Behavioral and regression verification
 
-- [ ] Exercise actual new-document flow with fresh readers, versioned artifacts, synthesis and final readiness.
-- [ ] Exercise read-only/drift/deep-budget boundaries without fabricating convergence.
-- [ ] Independently inspect package and resolve concrete defects.
-- [ ] Run full regressions, retain known Windows symlink limitations, commit/push/install and byte-verify 0.3.0.
+- [x] Exercise actual new-document flow with fresh readers, versioned artifacts, synthesis and final readiness.
+- [x] Exercise read-only/drift/deep-budget boundaries without fabricating convergence.
+- [x] Independently inspect package and resolve concrete defects.
+- [x] Run full regressions, retain known Windows symlink limitations, commit/push/install and byte-verify 0.3.0.

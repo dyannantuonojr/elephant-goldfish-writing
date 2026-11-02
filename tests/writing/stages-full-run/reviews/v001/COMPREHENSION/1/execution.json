@@ -1,0 +1,14 @@
+{
+  "stage_id": "COMPREHENSION",
+  "round_id": "full-1",
+  "writer_identity": "/root/staged_full_trial",
+  "actual_task_identity": "/root/staged_full_trial/comprehension_reader",
+  "requested_context_mode": "fork_turns:none",
+  "target_version": "v001",
+  "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "status": "COMPLETE",
+  "report": "reviews/v001/COMPREHENSION/1/report.json",
+  "report_sha256": "a22839edb054d101e2fd84c81ba42971860fadc0da26795e1cda7d7c2ef5cd4f",
+  "hash_matches": true
+}

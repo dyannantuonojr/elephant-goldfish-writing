@@ -1,0 +1,14 @@
+{
+  "stage_id": "CRITIQUE_TARGETED_EVIDENCE",
+  "round_id": "full-1-recheck-1",
+  "actual_task_identity": "/root/staged_full_trial/evidence_fix_check",
+  "requested_context_mode": "fork_turns:none",
+  "scope": "targeted fix check",
+  "target_version": "v002",
+  "target_sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "returned_sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "status": "COMPLETE",
+  "report": "reviews/v002/CRITIQUE_TARGETED_EVIDENCE/1/report.json",
+  "report_sha256": "65bce400e0a7e02ee0fd520e433c4484c04204aef40a99e8ca26e9502479c8a9",
+  "hash_matches": true
+}

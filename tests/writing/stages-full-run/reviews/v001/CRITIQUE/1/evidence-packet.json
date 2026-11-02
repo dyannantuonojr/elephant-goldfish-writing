@@ -1,0 +1,22 @@
+{
+  "stage_id": "CRITIQUE",
+  "round_id": "full-1",
+  "role": "evidence",
+  "target": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/draft-v001.md",
+  "version": "v001",
+  "sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "brief": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/brief.md",
+  "sources": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/sources.md",
+  "persona": "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/agents/evidence.md",
+  "standards": [
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/work.md",
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/wallace-wray.md",
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/review-contract.md",
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/staged-workflow.md"
+  ],
+  "excluded": [
+    "writer notes",
+    "other reports",
+    "expected findings"
+  ]
+}

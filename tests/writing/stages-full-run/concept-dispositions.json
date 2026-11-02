@@ -1,0 +1,24 @@
+{
+  "writer": "/root/staged_full_trial",
+  "source_report": "reviews/concept-v001/CONCEPT_CHALLENGE/1/report.json",
+  "dispositions": [
+    {
+      "finding_id": "big-picture-concept-v001-1",
+      "decision": "FIX",
+      "applied_in": "draft-v001.md",
+      "basis": "Recommendation now scopes assessment only; no spend or rollout"
+    },
+    {
+      "finding_id": "big-picture-concept-v001-2",
+      "decision": "FIX",
+      "applied_in": "draft-v001.md",
+      "basis": "Supplier signal qualified; no profitability claim; license-only calculation"
+    },
+    {
+      "finding_id": "big-picture-concept-v001-3",
+      "decision": "FIX",
+      "applied_in": "draft-v001.md",
+      "basis": "Decision-led sections cover benefits/limits, costs, risks, unassigned ownership and needed evidence"
+    }
+  ]
+}

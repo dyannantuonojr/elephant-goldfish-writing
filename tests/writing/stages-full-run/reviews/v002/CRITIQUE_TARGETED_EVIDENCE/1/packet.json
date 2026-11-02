@@ -1,0 +1,11 @@
+{
+  "stage_id": "CRITIQUE_TARGETED_EVIDENCE",
+  "round_id": "full-1-recheck-1",
+  "scope": "evidence-v001-1 attribution fix/local regressions; WW02 only; not blind whole-document audit",
+  "target": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/draft-v002.md",
+  "target_sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "brief": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/brief.md",
+  "sources": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/sources.md",
+  "finding": "reviews/v001/CRITIQUE/1/evidence.json",
+  "disposition": "critique-dispositions.json"
+}

@@ -1,0 +1,14 @@
+{
+  "stage_id": "ZOOM_OUT_FINAL",
+  "round_id": "full-1",
+  "writer_identity": "/root/staged_full_trial",
+  "actual_task_identity": "/root/staged_full_trial/final_altitude",
+  "requested_context_mode": "fork_turns:none",
+  "target_version": "v002",
+  "target_sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "returned_sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "status": "COMPLETE",
+  "report": "reviews/v002/ZOOM_OUT_FINAL/1/report.json",
+  "report_sha256": "d6429b62ba6b6f47e219ac4346e3121bf0cb0f2d4ed2c2f0ede5ece974dea584",
+  "hash_matches": true
+}

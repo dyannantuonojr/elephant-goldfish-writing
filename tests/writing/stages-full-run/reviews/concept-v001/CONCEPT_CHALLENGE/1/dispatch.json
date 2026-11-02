@@ -1,0 +1,5 @@
+{
+  "task_name": "concept_reader",
+  "fork_turns": "none",
+  "message": "Read-only fresh Goldfish CONCEPT_CHALLENGE, round full-1. Read persona C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/agents/big-picture.md and referenced contract, staged-workflow, work and Wallace-Wray standards. Target C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/concept-v001.md version concept-v001. Neutral brief.md and original sources.md are in same folder. Read actual bytes and compute SHA256. No other files/context, no research, no edits/spawns. Return original JSON per contract with stage_id CONCEPT_CHALLENGE, round_id full-1, exact hash, findings and WW04/05. Read using require_escalated if sandbox cannot access stable temp. Return JSON only."
+}

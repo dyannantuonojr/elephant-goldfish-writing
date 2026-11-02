@@ -1,0 +1,242 @@
+{
+  "reviewer": "evidence",
+  "status": "COMPLETE",
+  "stage_id": "CRITIQUE",
+  "round_id": "full-1",
+  "reviewed_version": "v001",
+  "reviewed_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "coverage": [
+    "Whole draft: opening, Benefits worth testing, Cost and operational conditions, Ownership and next evidence",
+    "Neutral brief: source restrictions, modest next decision, no invented private facts or procurement approval",
+    "Complete supplied original records S1, S2 and S3; no external inspection"
+  ],
+  "findings": [
+    {
+      "id": "evidence-v001-1",
+      "severity": "MINOR",
+      "location": "Benefits worth testing, first sentence (line 7)",
+      "quotation": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2).",
+      "issue": "The summary supplies staff-reported faster drafting; this sentence preserves supplier attribution but drops the self-report character of the outcome. A reader could mistake the percentage for an objectively measured result.",
+      "basis": "sources.md, S2: “20 volunteer legal-office staff reported 25% faster drafting over two weeks.” No full report or underlying data is available.",
+      "repair": "Retain both attribution layers: “The supplier summary says 20 volunteer legal-office staff reported 25% faster drafting over two weeks (S2).”"
+    }
+  ],
+  "gaps": [
+    "Only the synthetic supplied records were accessible/authorized. S2 full report, underlying data and detailed measurement method remain unavailable; the draft discloses that limit.",
+    "Currency code, taxes, contract terms, training/implementation costs, labor valuation, integration evidence, accountable lead, timing and thresholds are not established by the supplied record; the draft labels these unknown or proposed. These do not block the limited scoping request."
+  ],
+  "readiness": "READY_WITHIN_REVIEWED_SCOPE",
+  "support_map": [
+    {
+      "claim_quotation": "Leadership should sponsor scoping a bounded assessment of document assistance for the 80-person team.",
+      "source_id": "S1; S3",
+      "source_locator": "S1 opening; S3 final two sentences",
+      "source_quotation": "80 potential users; Leadership may be asked to sponsor scoping an assessment.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Normative recommendation within supplied scope; neither stakeholder agreement nor authority to spend."
+    },
+    {
+      "claim_quotation": "A firm-wide rollout would be premature because the supplied record does not establish net benefit, safe deployment or accountable ownership (S3).",
+      "source_id": "S2; S3",
+      "source_locator": "S2 omitted outcomes; S3 opening and approval limits",
+      "source_quotation": "Profit, classification accuracy, review effort and firm-wide outcomes were not measured. No integration test or deployment owner is established.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Reasoned decision boundary, not proof that deployment would be unsafe or unprofitable; S3 alone does not supply the financial limitation."
+    },
+    {
+      "claim_quotation": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2).",
+      "source_id": "S2",
+      "source_locator": "S2 first sentence",
+      "source_quotation": "20 volunteer legal-office staff reported 25% faster drafting over two weeks.",
+      "support_status": "PARTIAL",
+      "transfer_limits": "Numbers, setting, period and volunteer sample match; preserve self-report, see evidence-v001-1. No objective metric or causal effect established."
+    },
+    {
+      "claim_quotation": "There was no comparison group, and the demonstration did not measure classification accuracy, review effort, profit or firm-wide outcomes.",
+      "source_id": "S2",
+      "source_locator": "S2 sentences 2–3",
+      "source_quotation": "There was no comparison group. Profit, classification accuracy, review effort and firm-wide outcomes were not measured.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Applies to supplied summary; no full methods inspected."
+    },
+    {
+      "claim_quotation": "Volunteer selection and the legal-office setting also limit transfer to an 80-person professional-service team. The full report and underlying data are unavailable.",
+      "source_id": "S1; S2",
+      "source_locator": "S1 users; S2 first/last sentences",
+      "source_quotation": "20 volunteer legal-office staff reported 25% faster drafting over two weeks. The supplier promotes its own product; no full report or underlying data is available.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Transfer limitation is a reasonable inference; magnitude of bias or effect in target team unknown."
+    },
+    {
+      "claim_quotation": "Faster initial drafting could release capacity, but the useful benefit depends on the effort required to check and correct outputs.",
+      "source_id": "S2",
+      "source_locator": "S2 omitted measures",
+      "source_quotation": "Profit, classification accuracy, review effort and firm-wide outcomes were not measured.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Conditional workflow reasoning, not a measured capacity estimate; total time and quality comparison is proposed."
+    },
+    {
+      "claim_quotation": "Released hours would remain capacity unless a separately evidenced route to cash savings or additional revenue exists; neither labor valuation nor realized financial benefit is supplied (S1–S2).",
+      "source_id": "S1; S2",
+      "source_locator": "S1 labor valuation; S2 omitted outcomes",
+      "source_quotation": "Labor valuation is unknown. Profit, classification accuracy, review effort and firm-wide outcomes were not measured.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "No monetization, salary assumptions or financial return calculated."
+    },
+    {
+      "claim_quotation": "At the planning assumption of $20 per user per month, licenses for 80 users would total $1,600 monthly, or $19,200 for twelve months (S1).",
+      "source_id": "S1",
+      "source_locator": "S1 opening",
+      "source_quotation": "80 potential users; license $20 per user per month.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "80 × 20 = 1,600 per month; 1,600 × 12 = 19,200; all-users, constant-price scenario, not approved cost or quote."
+    },
+    {
+      "claim_quotation": "These figures use the supplied dollar symbol; the currency code is unspecified. They exclude unknown taxes, contract terms, training and implementation costs and are not an authenticated supplier quote.",
+      "source_id": "S1",
+      "source_locator": "S1 all sentences",
+      "source_quotation": "Currency code, taxes, contract terms, training and implementation costs are unspecified. Labor valuation is unknown. This is a supplied assumption, not an authenticated vendor quote.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Contract terms are unknown conditions rather than a priced cost component; total ownership cost cannot be established."
+    },
+    {
+      "claim_quotation": "A smaller assessment's license cost would depend on its participant count and terms; no evaluation budget is approved (S3).",
+      "source_id": "S1; S3",
+      "source_locator": "S1 per-user assumption; S3 approval sentence",
+      "source_quotation": "license $20 per user per month. No actual release of client records, evaluation budget, procurement decision or rollout date is approved.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Conditional planning observation, no assessment participant count or terms asserted."
+    },
+    {
+      "claim_quotation": "No integration test or deployment owner is established, and records may contain restricted client information (S3).",
+      "source_id": "S3",
+      "source_locator": "S3 opening two sentences",
+      "source_quotation": "no integration test or deployment owner is established. Records may contain restricted client information.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Possibility of restricted information, not proof all records are restricted; lack of test does not demonstrate infeasibility."
+    },
+    {
+      "claim_quotation": "The assessment plan should define permitted test material, access controls, review responsibilities and a way to stop work if information-handling or quality concerns arise.",
+      "source_id": "S2; S3",
+      "source_locator": "S2 unknown quality/review outcomes; S3 information/approval limits",
+      "source_quotation": "classification accuracy, review effort and firm-wide outcomes were not measured. Records may contain restricted client information. No actual release of client records ... is approved.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Operational recommendation inferred from risks, explicitly proposed safeguards, not implemented controls or compliance certification."
+    },
+    {
+      "claim_quotation": "Leadership should identify an assessment lead; that role remains unassigned.",
+      "source_id": "S3",
+      "source_locator": "S3 owner and scoping permissions",
+      "source_quotation": "no integration test or deployment owner is established. Leadership may be asked to sponsor scoping an assessment.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Proposed assessment role; supplied record names no assessment lead. No private identity or assigned stakeholder invented."
+    },
+    {
+      "claim_quotation": "The proposed lead would develop the scope, cost estimate, information-handling conditions and comparison method before any later request to fund a trial. Timing and success thresholds would be proposed in that plan, not presumed agreed here.",
+      "source_id": "S1; S2; S3",
+      "source_locator": "S1 unspecified costs; S2 unmeasured outcomes; S3 authority limits",
+      "source_quotation": "Currency code, taxes, contract terms, training and implementation costs are unspecified. Profit, classification accuracy, review effort and firm-wide outcomes were not measured. No actual release of client records, evaluation budget, procurement decision or rollout date is approved.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Future planning responsibilities and measures are recommendations, not established obligations, deadlines or accepted success standards."
+    },
+    {
+      "claim_quotation": "The subsequent decision should consider measured end-to-end time, correction effort, quality, integration feasibility and full costs.",
+      "source_id": "S1; S2; S3",
+      "source_locator": "S1 costs; S2 omitted outcomes; S3 absent integration test",
+      "source_quotation": "training and implementation costs are unspecified. review effort ... were not measured. no integration test ... is established.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Proposed decision criteria address actual gaps; measurements have not happened."
+    },
+    {
+      "claim_quotation": "The present evidence supports scoping that decision, with no procurement commitment or rollout date.",
+      "source_id": "S3",
+      "source_locator": "S3 final approval/scoping sentences",
+      "source_quotation": "No actual release of client records, evaluation budget, procurement decision or rollout date is approved. Leadership may be asked to sponsor scoping an assessment.",
+      "support_status": "SUPPORTED",
+      "transfer_limits": "Supports only requesting/scoping assessment; no trial, purchase or rollout approval implied."
+    }
+  ],
+  "source_synopses": [
+    {
+      "source_id": "S1",
+      "access_scope": "Complete original supplied synthetic planning record in sources.md; no authenticated supplier quote.",
+      "passage_locators": [
+        "sources.md S1, complete paragraph"
+      ],
+      "reading_purpose": "Check users, price, arithmetic, cost completeness and financial assumptions for the leadership decision.",
+      "author_project": "Provide explicit scenario assumptions and unknowns; actual underlying author and pricing verification are unknown.",
+      "relevant_claims": "80 potential users and $20/user/month; currency, taxes, terms, implementation/training costs and labor valuation unknown.",
+      "evaluation": "Arithmetic is reproducible and internally consistent. Assumed inputs do not establish actual price, total cost, affordability or cash benefit.",
+      "permitted_use": "Attributed scenario license calculations and explicit unknowns; no vendor quote or net-benefit claim."
+    },
+    {
+      "source_id": "S2",
+      "access_scope": "Complete original supplied supplier demonstration summary in sources.md; full report, underlying data and independent verification unavailable.",
+      "passage_locators": [
+        "sources.md S2, sentences 1–4"
+      ],
+      "reading_purpose": "Determine what claimed drafting benefit warrants investigating and what cannot be generalized.",
+      "author_project": "Supplier promotes its own product; precise demonstration design and measurement instrument beyond summary are unknown.",
+      "relevant_claims": "20 volunteer legal-office staff reported 25% faster drafting over two weeks; no comparison group; profit, classification accuracy, review effort and firm-wide outcomes unmeasured.",
+      "evaluation": "Commercial interest, self-report, voluntary selection, short duration and absent comparator limit causal confidence. Legal-office context does not establish effect or generalizability for this professional-service team. Underlying methods and data cannot be audited.",
+      "permitted_use": "Precisely attributed, self-reported signal motivating bounded investigation; no causal estimate, target-team forecast, demonstrated quality, cash savings or firm-wide benefit."
+    },
+    {
+      "source_id": "S3",
+      "access_scope": "Complete original supplied synthetic operational constraints record in sources.md; no actual institutional validation or legal certification.",
+      "passage_locators": [
+        "sources.md S3, complete paragraph"
+      ],
+      "reading_purpose": "Check feasibility gaps, restricted information and authorization boundaries for the proposed next decision.",
+      "author_project": "Specify operational unknowns and limits on commitments in this synthetic brief; author identity beyond supplied record unknown.",
+      "relevant_claims": "No integration test or deployment owner; records may contain restricted client information; client-record release, budget, procurement and rollout unapproved; leadership can be asked to sponsor assessment scoping.",
+      "evaluation": "Directly controls the exercise scope and modest recommendation. Does not establish integration success/failure, legal compliance, accepted safeguards or stakeholder agreement.",
+      "permitted_use": "Report actual constraints, recommend unassigned ownership and planning safeguards, request scoping only; no release, procurement or compliance assurance."
+    }
+  ],
+  "ww_review": {
+    "standard_version": "ww-adapted-v1",
+    "checks": [
+      {
+        "id": "WW-01",
+        "status": "CHECKED",
+        "basis": "Independently read all three original supplied records. S1 is an assumption, S2 a commercially interested and method-limited supplier summary, S3 the operational/authority boundary. They support a scoped planning request, not adoption or demonstrated net benefits. Independent five-dimension synopses follow.",
+        "evidence": [
+          {
+            "location": "Cost and operational conditions, line 13",
+            "quotation": "They exclude unknown taxes, contract terms, training and implementation costs and are not an authenticated supplier quote."
+          }
+        ],
+        "source_refs": [
+          "sources.md S1",
+          "sources.md S2",
+          "sources.md S3"
+        ]
+      },
+      {
+        "id": "WW-02",
+        "status": "REPAIR",
+        "basis": "Certainty and generalization are mostly calibrated: the draft rejects forecasting the demonstration to this team, distinguishes capacity from cash, and makes safeguards proposals. Finding evidence-v001-1 preserves the remaining self-report measurement qualifier; no broader transfer or causal warrant is established.",
+        "evidence": [
+          {
+            "location": "Benefits worth testing, line 7",
+            "quotation": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2)."
+          },
+          {
+            "location": "Benefits worth testing, line 7",
+            "quotation": "This is a reason to investigate drafting assistance, rather than a forecast for our team."
+          },
+          {
+            "location": "Benefits worth testing, line 9",
+            "quotation": "Released hours would remain capacity unless a separately evidenced route to cash savings or additional revenue exists; neither labor valuation nor realized financial benefit is supplied (S1–S2)."
+          }
+        ],
+        "source_refs": [
+          "sources.md S1: labor valuation unknown",
+          "sources.md S2: self-report, volunteers, setting, no comparison or downstream measures",
+          "sources.md S3: scoping allowed, no budget/procurement approval"
+        ]
+      }
+    ]
+  }
+}

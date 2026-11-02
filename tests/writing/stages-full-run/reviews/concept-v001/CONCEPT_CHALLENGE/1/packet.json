@@ -1,0 +1,21 @@
+{
+  "stage_id": "CONCEPT_CHALLENGE",
+  "round_id": "full-1",
+  "target": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/concept-v001.md",
+  "version": "concept-v001",
+  "sha256": "9b78f71e37313cc0cc52e7afa09fbe8cd9b89af1df94ce64257ebf6148af73a8",
+  "brief": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/brief.md",
+  "sources": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/sources.md",
+  "standards": [
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/work.md",
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/wallace-wray.md",
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/review-contract.md",
+    "C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/staged-workflow.md"
+  ],
+  "excluded": [
+    "writer notes",
+    "other reports",
+    "expected findings"
+  ],
+  "source_access": "Only complete synthetic supplied records; no full supplier data"
+}

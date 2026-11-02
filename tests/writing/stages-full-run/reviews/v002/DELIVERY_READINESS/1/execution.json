@@ -1,0 +1,14 @@
+{
+  "stage_id": "DELIVERY_READINESS",
+  "round_id": "full-1",
+  "writer_identity": "/root/staged_full_trial",
+  "actual_task_identity": "/root/staged_full_trial/delivery_readiness",
+  "requested_context_mode": "fork_turns:none",
+  "target_version": "v002",
+  "target_sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "returned_sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "status": "COMPLETE",
+  "report": "reviews/v002/DELIVERY_READINESS/1/report.json",
+  "report_sha256": "e5f55521be5b17eb0abe42d32ce923fa49abfacd936df53cf4dc707b0a11dad2",
+  "hash_matches": true
+}

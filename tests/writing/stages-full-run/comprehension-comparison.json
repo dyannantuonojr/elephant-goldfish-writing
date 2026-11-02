@@ -1,0 +1,8 @@
+{
+  "source_report": "reviews/v001/COMPREHENSION/1/report.json",
+  "paraphrase_artifact": "reviews/v001/COMPREHENSION/1/paraphrase.json",
+  "verbatim_matches": true,
+  "substantive_mismatches": [],
+  "decision": "NO_CHANGE",
+  "basis": "Paraphrase accurately reconstructs planning recommendation, limits and next action"
+}

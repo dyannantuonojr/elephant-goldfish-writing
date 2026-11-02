@@ -1,0 +1,5 @@
+{
+  "task_name": "comprehension_reader",
+  "fork_turns": "none",
+  "message": "Fresh read-only comprehension Goldfish, stage COMPREHENSION round full-1. Read persona C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/agents/comprehension.md and referenced review contract, staged workflow, work and Wallace-Wray standards. First read ONLY actual target C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/draft-v001.md (version v001) and form complete paraphrase; THEN inspect neutral brief.md and original sources.md in same folder. No other files/context, writer notes/other reports, research, edits or spawns. Compute actual SHA256. Return JSON per contract with stage/round/hash, complete paraphrase, WW04/05/06 and findings. Save identical original report JSON only at reviews/v001/COMPREHENSION/1/report.json under target folder; separately save verbatim paraphrase JSON at same folder paraphrase.json. Report-artifact writes allowed; target must remain unchanged. Use node_repl fs for stable temp. Reply summary, report path and findings."
+}

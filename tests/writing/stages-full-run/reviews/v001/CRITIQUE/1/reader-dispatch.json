@@ -1,0 +1,5 @@
+{
+  "task_name": "requirements_reader",
+  "fork_turns": "none",
+  "message": "Fresh read-only reader/requirements Goldfish, stage CRITIQUE round full-1. Read persona C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/agents/reader.md and referenced review contract, staged workflow, work and Wallace-Wray standards. Inspect entire actual C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/draft-v001.md (version v001), neutral brief.md and original sources.md in same folder. Only these inputs; no notes/other reports, research, manuscript edits or spawns. Compute actual SHA256. Return original contract JSON with stage/round/hash, findings, WW04/05/06, actual adjacent-paragraph prose_links, conclusion linkage and requirement coverage. Save identical report JSON only at reviews/v001/CRITIQUE/1/reader.json under target folder (report-artifact write allowed); node_repl fs works on stable temp. Reply concise summary/path/hash and all finding IDs/severities."
+}

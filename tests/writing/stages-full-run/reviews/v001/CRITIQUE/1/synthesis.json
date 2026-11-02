@@ -1,0 +1,354 @@
+{
+  "role": "synthesizer",
+  "status": "COMPLETE",
+  "stage_id": "CRITIQUE",
+  "round_id": "full-1",
+  "reviewed_version": "v001",
+  "reviewed_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "binding": {
+    "stage_id": "CRITIQUE",
+    "round_id": "full-1",
+    "version": "v001",
+    "sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+    "expected_roles": [
+      "evidence",
+      "argument",
+      "reader"
+    ],
+    "binding_basis": "Original report metadata compared with coordinator-supplied frozen target; draft bytes not independently reread by this consolidation helper."
+  },
+  "reviewer_statuses": [
+    {
+      "reviewer": "evidence",
+      "original_status": "COMPLETE",
+      "effective_status": "COMPLETE",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\evidence.json",
+      "report_sha256": "518ecb09f2b4c0e80d5b8ce456b067dcc08ef045ba990de721ab6f3332b875bb",
+      "binding_matches": true,
+      "finding_count": 1,
+      "readiness": "READY_WITHIN_REVIEWED_SCOPE",
+      "coverage": [
+        "Whole draft: opening, Benefits worth testing, Cost and operational conditions, Ownership and next evidence",
+        "Neutral brief: source restrictions, modest next decision, no invented private facts or procurement approval",
+        "Complete supplied original records S1, S2 and S3; no external inspection"
+      ]
+    },
+    {
+      "reviewer": "argument",
+      "original_status": "COMPLETE",
+      "effective_status": "COMPLETE",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\argument.json",
+      "report_sha256": "8ccb1d9437f71a0de3bd9a9a2dbc7a7554075ad09b68d182baef98553223cc2e",
+      "binding_matches": true,
+      "finding_count": 0,
+      "readiness": "READY_WITHIN_REVIEWED_SCOPE",
+      "coverage": [
+        "Entire draft: title, opening recommendation, Benefits worth testing, Cost and operational conditions, Ownership and next evidence, and conclusion; all seven substantive paragraphs.",
+        "Entire neutral brief.md: leadership decision, benefits/limits, costs, risk, ownership, evidence and modest commitments.",
+        "Entire original sources.md: S1 planning assumptions, S2 supplier demonstration summary, S3 operational constraints.",
+        "Argument persona, review contract, staged workflow/pipeline policy, work standard and Wallace-Wray adaptation."
+      ]
+    },
+    {
+      "reviewer": "reader",
+      "original_status": "COMPLETE",
+      "effective_status": "COMPLETE",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\reader.json",
+      "report_sha256": "982c0c465b72281100cb72b5e5d02a903f9c3270c779319872b8ffa97d7973ba",
+      "binding_matches": true,
+      "finding_count": 0,
+      "readiness": "READY_WITHIN_REVIEWED_SCOPE",
+      "coverage": [
+        "Entire draft-v001.md: title, opening recommendation, Benefits worth testing, Cost and operational conditions, Ownership and next evidence, and closing decision",
+        "Entire neutral brief.md and original sources.md records S1, S2 and S3",
+        "Work standard, review contract, staged workflow/pipeline and Wallace-Wray WW-04/05/06"
+      ]
+    }
+  ],
+  "consolidated_findings": [
+    {
+      "action_id": "CRITIQUE-full-1-action-001",
+      "display_severity": "MINOR",
+      "member_finding_ids": [
+        "evidence-v001-1"
+      ],
+      "scope": "Benefits worth testing, first sentence (line 7)",
+      "issue": "The summary supplies staff-reported faster drafting; this sentence preserves supplier attribution but drops the self-report character of the outcome. A reader could mistake the percentage for an objectively measured result.",
+      "suggested_action": "Retain both attribution layers: “The supplier summary says 20 volunteer legal-office staff reported 25% faster drafting over two weeks (S2).”",
+      "original_members": [
+        {
+          "reviewer": "evidence",
+          "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\evidence.json",
+          "finding_id": "evidence-v001-1",
+          "original_severity": "MINOR",
+          "location": "Benefits worth testing, first sentence (line 7)",
+          "quotation": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2).",
+          "basis": "sources.md, S2: “20 volunteer legal-office staff reported 25% faster drafting over two weeks.” No full report or underlying data is available.",
+          "original_finding": {
+            "id": "evidence-v001-1",
+            "severity": "MINOR",
+            "location": "Benefits worth testing, first sentence (line 7)",
+            "quotation": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2).",
+            "issue": "The summary supplies staff-reported faster drafting; this sentence preserves supplier attribution but drops the self-report character of the outcome. A reader could mistake the percentage for an objectively measured result.",
+            "basis": "sources.md, S2: “20 volunteer legal-office staff reported 25% faster drafting over two weeks.” No full report or underlying data is available.",
+            "repair": "Retain both attribution layers: “The supplier summary says 20 volunteer legal-office staff reported 25% faster drafting over two weeks (S2).”"
+          }
+        }
+      ],
+      "author_disposition": null
+    }
+  ],
+  "traceability": [
+    {
+      "finding_id": "evidence-v001-1",
+      "reviewer": "evidence",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\evidence.json",
+      "original_severity": "MINOR",
+      "original_quotation": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2).",
+      "action_id": "CRITIQUE-full-1-action-001",
+      "mapping": "EXPLICITLY_DISTINCT",
+      "occurrences": 1
+    }
+  ],
+  "disagreements": [],
+  "disagreement_note": "No opposing repair recommendations occur in the original findings. Argument and reader return zero findings; this does not negate the evidence reviewer MINOR self-report-attribution finding. No author disposition is inferred.",
+  "gaps": [
+    {
+      "reviewer": "evidence",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\evidence.json",
+      "original_gap": "Only the synthetic supplied records were accessible/authorized. S2 full report, underlying data and detailed measurement method remain unavailable; the draft discloses that limit."
+    },
+    {
+      "reviewer": "evidence",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\evidence.json",
+      "original_gap": "Currency code, taxes, contract terms, training/implementation costs, labor valuation, integration evidence, accountable lead, timing and thresholds are not established by the supplied record; the draft labels these unknown or proposed. These do not block the limited scoping request."
+    },
+    {
+      "reviewer": "argument",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\argument.json",
+      "original_gap": "S2 underlying data/full report and comparison-group evidence are unavailable; the draft explicitly retains this limitation."
+    },
+    {
+      "reviewer": "argument",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\argument.json",
+      "original_gap": "Currency code, taxes, contract/training/implementation costs, labor valuation, integration test, deployment owner, budget and approved release of client records remain unknown or absent under S1/S3. These limit a trial/purchase decision, while the recommendation is only to scope an assessment."
+    },
+    {
+      "reviewer": "reader",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\reader.json",
+      "original_gap": "S2 full report and underlying data are unavailable; the report explicitly preserves that supplied access limit."
+    },
+    {
+      "reviewer": "reader",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\reader.json",
+      "original_gap": "Currency code, taxes, contract terms, training/implementation costs, labor valuation, integration results and accountable owner remain unknown in the supplied records and are identified as unknown or proposed in the draft."
+    },
+    {
+      "reviewer": "reader",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\reader.json",
+      "original_gap": "No exact Word/PDF rendering was supplied or inspected. Markdown only is required; export acceptance is outside this review."
+    }
+  ],
+  "ww_judgments": [
+    {
+      "reviewer": "evidence",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\evidence.json",
+      "original_ww_review": {
+        "standard_version": "ww-adapted-v1",
+        "checks": [
+          {
+            "id": "WW-01",
+            "status": "CHECKED",
+            "basis": "Independently read all three original supplied records. S1 is an assumption, S2 a commercially interested and method-limited supplier summary, S3 the operational/authority boundary. They support a scoped planning request, not adoption or demonstrated net benefits. Independent five-dimension synopses follow.",
+            "evidence": [
+              {
+                "location": "Cost and operational conditions, line 13",
+                "quotation": "They exclude unknown taxes, contract terms, training and implementation costs and are not an authenticated supplier quote."
+              }
+            ],
+            "source_refs": [
+              "sources.md S1",
+              "sources.md S2",
+              "sources.md S3"
+            ]
+          },
+          {
+            "id": "WW-02",
+            "status": "REPAIR",
+            "basis": "Certainty and generalization are mostly calibrated: the draft rejects forecasting the demonstration to this team, distinguishes capacity from cash, and makes safeguards proposals. Finding evidence-v001-1 preserves the remaining self-report measurement qualifier; no broader transfer or causal warrant is established.",
+            "evidence": [
+              {
+                "location": "Benefits worth testing, line 7",
+                "quotation": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2)."
+              },
+              {
+                "location": "Benefits worth testing, line 7",
+                "quotation": "This is a reason to investigate drafting assistance, rather than a forecast for our team."
+              },
+              {
+                "location": "Benefits worth testing, line 9",
+                "quotation": "Released hours would remain capacity unless a separately evidenced route to cash savings or additional revenue exists; neither labor valuation nor realized financial benefit is supplied (S1–S2)."
+              }
+            ],
+            "source_refs": [
+              "sources.md S1: labor valuation unknown",
+              "sources.md S2: self-report, volunteers, setting, no comparison or downstream measures",
+              "sources.md S3: scoping allowed, no budget/procurement approval"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "reviewer": "argument",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\argument.json",
+      "original_ww_review": {
+        "standard_version": "ww-adapted-v1",
+        "checks": [
+          {
+            "id": "WW-03",
+            "status": "CHECKED",
+            "basis": "The supplied records serve different purposes rather than providing competing comparable experiments. The draft juxtaposes the supplier promotional demonstration (S2: volunteer legal-office participants, two weeks, no control, unavailable full report) with the team scale and incomplete financial assumptions (S1) and local feasibility constraints (S3). It uses those differences to limit transfer and derive the next evidence need, without forcing agreement or claiming independent validation.",
+            "evidence": [
+              {
+                "location": "Benefits worth testing, first paragraph",
+                "quotation": "Volunteer selection and the legal-office setting also limit transfer to an 80-person professional-service team."
+              },
+              {
+                "location": "Benefits worth testing, second paragraph",
+                "quotation": "Released hours would remain capacity unless a separately evidenced route to cash savings or additional revenue exists; neither labor valuation nor realized financial benefit is supplied (S1–S2)."
+              }
+            ],
+            "source_refs": [
+              "sources.md S1, entire planning-assumptions paragraph",
+              "sources.md S2, entire supplier-demonstration paragraph",
+              "sources.md S3, entire operational-constraints paragraph"
+            ]
+          },
+          {
+            "id": "WW-04",
+            "status": "CHECKED",
+            "basis": "Each of the seven paragraphs has a distinct contribution recorded in paragraph_functions. Actual neighboring prose moves from the demonstration’s measurement limits to a comparison design, then from financial limits to operational feasibility. The final ownership paragraph provides the dependency for obtaining the evidence named in the conclusion.",
+            "evidence": [
+              {
+                "location": "Benefits worth testing, first paragraph",
+                "quotation": "There was no comparison group, and the demonstration did not measure classification accuracy, review effort, profit or firm-wide outcomes."
+              },
+              {
+                "location": "Benefits worth testing, adjacent second paragraph",
+                "quotation": "An assessment should therefore compare total task time and output quality against existing practice on comparable work."
+              }
+            ],
+            "source_refs": [
+              "sources.md S2; unmeasured review effort and outcomes",
+              "sources.md S3; no established integration test or deployment owner"
+            ]
+          },
+          {
+            "id": "WW-05",
+            "status": "CHECKED",
+            "basis": "The question is answered at the opening and remains bounded through the conclusion. Reasons support planning rather than purchase: weak transfer evidence, incomplete cost/benefit information and operational dependencies. The conclusion integrates those reasons into the later evidence requirement and retains the alternative of existing practice. Assessment measures are proposed future evidence, not reported outcomes.",
+            "evidence": [
+              {
+                "location": "Opening paragraph",
+                "quotation": "The next decision is whether to develop that assessment plan; this report does not request a purchase or authorize pilot spending."
+              },
+              {
+                "location": "Conclusion",
+                "quotation": "Leadership could then decide whether a bounded trial is justified or whether existing practice remains preferable. The present evidence supports scoping that decision, with no procurement commitment or rollout date."
+              }
+            ],
+            "source_refs": [
+              "sources.md S1; cost/valuation limits",
+              "sources.md S2; demonstration scope and absent outcomes",
+              "sources.md S3; leadership may sponsor scoping, no budget/procurement/rollout approval"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "reviewer": "reader",
+      "report_path": "C:\\Users\\dyann\\AppData\\Local\\Temp\\egm-staged-full-dccdddd1f15349339549fedd897f1635\\reviews\\v001\\CRITIQUE\\1\\reader.json",
+      "original_ww_review": {
+        "standard_version": "ww-adapted-v1",
+        "checks": [
+          {
+            "id": "WW-04",
+            "status": "CHECKED",
+            "basis": "All seven substantive paragraphs contribute to the same decision. The opening establishes scoping; the supplier paragraph assesses the potential benefit and its bounds; the next derives the relevant measurement; the cost paragraph establishes the planning baseline; the risk paragraph adds feasibility conditions; the ownership paragraph makes scoping actionable without inventing an owner or deadline; the closing paragraph collects decision criteria. Actual adjacent pairs are quoted in prose_links. There are no exhibits or appendices needing integration.",
+            "evidence": [
+              {
+                "location": "Benefits worth testing, second paragraph",
+                "quotation": "An assessment should therefore compare total task time and output quality against existing practice on comparable work."
+              },
+              {
+                "location": "Ownership and next evidence, first paragraph",
+                "quotation": "The proposed lead would develop the scope, cost estimate, information-handling conditions and comparison method before any later request to fund a trial."
+              }
+            ],
+            "source_refs": [
+              "brief.md: requested benefits, costs, risks, ownership and evidence",
+              "sources.md: S1–S3"
+            ]
+          },
+          {
+            "id": "WW-05",
+            "status": "CHECKED",
+            "basis": "The supplied record permits leadership to sponsor assessment scoping. The draft leads with precisely that action, supports it through bounded potential benefit and unresolved cost/operational conditions, and closes with the same limited implication. It distinguishes the current scoping decision from a later trial decision and preserves existing practice as an option.",
+            "evidence": [
+              {
+                "location": "Opening paragraph",
+                "quotation": "The next decision is whether to develop that assessment plan; this report does not request a purchase or authorize pilot spending."
+              },
+              {
+                "location": "Closing paragraph",
+                "quotation": "The present evidence supports scoping that decision, with no procurement commitment or rollout date."
+              }
+            ],
+            "source_refs": [
+              "sources.md: S2 supplier demonstration limits",
+              "sources.md: S3 leadership may be asked to sponsor scoping; no budget/procurement/rollout approval"
+            ]
+          },
+          {
+            "id": "WW-06",
+            "status": "CHECKED",
+            "basis": "Leadership receives the requested action before detail. The license arithmetic has a clear user count, rate and periods; unspecified currency and extra costs remain visible. Capacity is distinguished from cash benefit in plain terms. The unassigned lead and proposed timing/thresholds make unknowns understandable without inventing agreement. No model was supplied, so no model-based style judgment is claimed.",
+            "evidence": [
+              {
+                "location": "Cost and operational conditions, first paragraph",
+                "quotation": "These figures use the supplied dollar symbol; the currency code is unspecified."
+              },
+              {
+                "location": "Ownership and next evidence, first paragraph",
+                "quotation": "Leadership should identify an assessment lead; that role remains unassigned."
+              },
+              {
+                "location": "Benefits worth testing, second paragraph",
+                "quotation": "Released hours would remain capacity unless a separately evidenced route to cash savings or additional revenue exists; neither labor valuation nor realized financial benefit is supplied (S1–S2)."
+              }
+            ],
+            "source_refs": [
+              "brief.md: leadership audience and plain, direct, proportionate style",
+              "sources.md: S1 unspecified costs/labor valuation; S3 unassigned owner"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "stage_complete": true,
+  "stage_complete_scope": "All expected original reports are COMPLETE and match the supplied stage/round/version/hash. This records critique-return completeness, not manuscript acceptance, author resolution, or substantive correctness.",
+  "provenance_limits": [
+    "Actual reviewer dispatch identities and fresh-context execution receipts were not supplied to this consolidation helper; report metadata alone does not establish isolation."
+  ],
+  "traceability_counts": {
+    "original_findings": 1,
+    "action_groups": 1,
+    "mapped_findings": 1,
+    "unmapped_findings": 0,
+    "duplicate_mappings": 0
+  },
+  "author_dispositions_decided": false
+}

@@ -1,0 +1,91 @@
+{
+  "reviewer": "big-picture",
+  "status": "COMPLETE",
+  "stage_id": "CONCEPT_CHALLENGE",
+  "round_id": "full-1",
+  "reviewed_version": "concept-v001",
+  "reviewed_sha256": "9b78f71e37313cc0cc52e7afa09fbe8cd9b89af1df94ce64257ebf6148af73a8",
+  "coverage": [
+    "Complete concept-v001.md",
+    "Complete brief.md",
+    "Supplied records S1, S2 and S3",
+    "Review contract, staged workflow, work-document standard and Wallace-Wray standard"
+  ],
+  "findings": [
+    {
+      "id": "big-picture-concept-v001-1",
+      "severity": "MAJOR",
+      "location": "Concept proposal, opening sentence",
+      "quotation": "Propose immediate firm-wide rollout",
+      "issue": "The proposed decision exceeds both the requested assessment and the available authorization. It bypasses the unresolved feasibility, information-handling and ownership questions.",
+      "basis": "The brief asks whether to trial the tool and authorizes no purchase or pilot spend. S3 permits asking leadership to sponsor scoping an assessment and establishes no integration test, deployment owner, procurement decision or rollout date.",
+      "repair": "Frame the report around whether leadership should sponsor scoping a bounded assessment. Identify ownership as unassigned and make feasibility, safe information handling and an evaluation plan prerequisites to any later spending decision."
+    },
+    {
+      "id": "big-picture-concept-v001-2",
+      "severity": "MAJOR",
+      "location": "Concept proposal, opening sentence",
+      "quotation": "the supplier's demonstration of faster drafting suggests a profitable deployment",
+      "issue": "The proposed answer connects a limited drafting-speed report to profitability and firm-wide deployment without the necessary evidence. The strongest alternative explanation is that the observed result reflects the volunteer sample, task setting or measurement conditions rather than a transferable net benefit.",
+      "basis": "S2 reports 20 volunteer legal-office staff over two weeks, no comparison group and no measured profit, review effort or firm-wide outcomes. S1 leaves labor valuation and several costs unknown. The work standard distinguishes released capacity from cash savings.",
+      "repair": "Treat faster drafting as an attributed signal worth investigating. Compare possible time benefits with review effort, output quality, implementation costs and transfer limits. State that profitability remains unestablished; calculate only the supplied license assumption of $1,600 per month for 80 users, with currency code and additional costs unresolved."
+    },
+    {
+      "id": "big-picture-concept-v001-3",
+      "severity": "MAJOR",
+      "location": "Concept proposal, second sentence",
+      "quotation": "Organize the report around the tool's features, a savings claim, and an immediate purchase recommendation.",
+      "issue": "The planned blocks prioritize a sales-oriented narrative over the leadership decision and omit required risks, ownership and evidence needs. No supplied record establishes a feature inventory or realized savings.",
+      "basis": "The brief requires benefits and limits, license costs, risks, ownership and evidence needed within 350–500 words. The work standard requires a decision-led structure and supported operational and financial claims.",
+      "repair": "Use a compact sequence: recommended next decision; limited benefit evidence and license assumptions; operational risks and unknowns; proposed assessment ownership and evidence needed for a subsequent decision. Avoid unsupported feature descriptions."
+    }
+  ],
+  "gaps": [
+    "Currency code, taxes, contract terms, training and implementation costs, and labor valuation are unspecified.",
+    "The supplied demonstration summary lacks underlying data and comparative evidence.",
+    "Integration feasibility, deployment ownership, information-handling safeguards and an evaluation budget remain unestablished."
+  ],
+  "prose_links": {
+    "status": "NOT_APPLICABLE",
+    "reason": "The target contains one short concept paragraph, so there is no pair of adjacent substantive prose paragraphs or manuscript conclusion to inspect. Its proposed block sequence was assessed for contribution to the requested decision."
+  },
+  "ww_review": {
+    "standard_version": "ww-adapted-v1",
+    "checks": [
+      {
+        "id": "WW-04",
+        "status": "REPAIR",
+        "basis": "At concept scope, the planned feature/savings/purchase blocks do not provide the reasoning sequence needed to assess a trial. Their purposes should be recast around the decision, bounded evidence, operational constraints and next evidence requirements.",
+        "evidence": [
+          {
+            "location": "Concept proposal, second sentence",
+            "quotation": "Organize the report around the tool's features, a savings claim, and an immediate purchase recommendation."
+          }
+        ],
+        "source_refs": [
+          "brief.md, required report contents",
+          "sources.md, S1–S3",
+          "work.md, Decision and support"
+        ]
+      },
+      {
+        "id": "WW-05",
+        "status": "REPAIR",
+        "basis": "The proposed conclusion outruns the question and support. The defensible direction is a request to scope an assessment. Stronger deployment advice would require credible evidence of transferable net benefits, safe handling, feasible integration, full costs and accountable ownership.",
+        "evidence": [
+          {
+            "location": "Concept proposal, opening sentence",
+            "quotation": "Propose immediate firm-wide rollout because the supplier's demonstration of faster drafting suggests a profitable deployment."
+          }
+        ],
+        "source_refs": [
+          "brief.md, trial-assessment purpose and authorization limits",
+          "sources.md, S1 financial unknowns",
+          "sources.md, S2 demonstration limitations",
+          "sources.md, S3 operational constraints"
+        ]
+      }
+    ]
+  },
+  "readiness": "REVISE"
+}

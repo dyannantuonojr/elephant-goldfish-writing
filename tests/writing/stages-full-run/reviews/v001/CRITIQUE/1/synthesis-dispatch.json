@@ -1,0 +1,5 @@
+{
+  "task_name": "critique_synthesizer",
+  "fork_turns": "none",
+  "message": "You are an actual consolidation helper, NOT a blind content reviewer or writer. Read C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/agents/synthesizer.md and referenced contract, staged workflow and Wallace-Wray standards. Stage CRITIQUE round full-1 frozen v001 SHA256 1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c. Expected roles evidence, argument, reader. Read their ORIGINAL JSON reports ONLY at C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/reviews/v001/CRITIQUE/1/{evidence,argument,reader}.json. Return consolidation with reviewer_statuses, consolidated_findings, exact traceability for every original finding once including original reviewer/report/severity/quotations, disagreements, gaps, stage_complete and binding. Do not decide author dispositions, re-review content, spawn, research or edit manuscripts/reports. Save original synthesis JSON at same folder synthesis.json, report artifact write allowed. Reply concise status and action IDs/path."
+}

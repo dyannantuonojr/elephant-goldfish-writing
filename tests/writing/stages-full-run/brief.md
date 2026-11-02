@@ -1,0 +1,3 @@
+# Synthetic work-report brief
+
+Draft a concise 350-500-word leadership report assessing whether to trial a document-assistance tool for an 80-person professional-service team. Recommend the next decision; explain benefits and limits, license costs, risks, ownership and evidence needed. Use only supplied source records and informal S1/S2/S3 attributions. Deliver Markdown only; no Word/PDF required. No actual staff names, personal experience, procurement approval or private employer facts may be invented. Style: plain, direct, proportionate; keep the decision clear and the commitments modest. The task authorizes drafting and ordinary internal revisions, not a purchase or actual pilot spend.

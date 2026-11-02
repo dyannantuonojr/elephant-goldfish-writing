@@ -1,0 +1,12 @@
+{
+  "actual_task_identity": "/root/staged_full_trial/critique_synthesizer",
+  "context": "fork_turns:none",
+  "type": "consolidation helper; not independent content review",
+  "stage_id": "CRITIQUE",
+  "round_id": "full-1",
+  "version": "v001",
+  "sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "report": "reviews/v001/CRITIQUE/1/synthesis.json",
+  "report_sha256": "ac9eb9d5075965742f452799131dba897d49e1e71f28a91c30e36128ace33cb6",
+  "stage_complete": true
+}

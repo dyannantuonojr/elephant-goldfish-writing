@@ -1,0 +1,28 @@
+{
+  "writer": "/root/staged_full_trial",
+  "source_synthesis": "reviews/v001/CRITIQUE/1/synthesis.json",
+  "old_version": "v001",
+  "old_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "new_version": "v002",
+  "new_sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "dispositions": [
+    {
+      "action_id": "CRITIQUE-full-1-action-001",
+      "finding_id": "evidence-v001-1",
+      "original_severity": "MINOR",
+      "decision": "FIX",
+      "basis": "Original S2 explicitly says staff reported the improvement; preserve measurement character as well as supplier attribution",
+      "old_quote": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2).",
+      "new_quote": "The supplier summary says 20 volunteer legal-office staff reported 25% faster drafting over two weeks (S2).",
+      "fix_verification": "Pending actual focused evidence recheck"
+    }
+  ],
+  "recheck_decisions": {
+    "evidence": "One focused fresh check required for factual calibration",
+    "comprehension": "NOT_NEEDED: central recommendation, reasoning, limits and action unchanged; retained paraphrase still tests argument",
+    "argument": "No reasoning change",
+    "reader": "No requirement or audience change"
+  },
+  "regression_check": "Same writer compared complete v001 and v002; only single attribution sentence changes; no new facts or stronger claims",
+  "convergence": "NOT_CLAIMED full preset one critique round"
+}

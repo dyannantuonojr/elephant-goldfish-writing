@@ -1,0 +1,82 @@
+{
+  "writer_identity": "/root/staged_full_trial",
+  "draft_version": "v001",
+  "draft_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "receipts": [
+    {
+      "stage_id": "ZOOM_OUT_INITIAL",
+      "round_id": "full-1",
+      "writer_identity": "/root/staged_full_trial",
+      "actual_task_identity": "/root/staged_full_trial/initial_altitude",
+      "requested_context_mode": "fork_turns:none",
+      "target_version": "v001",
+      "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "status": "COMPLETE",
+      "report": "reviews/v001/ZOOM_OUT_INITIAL/1/report.json",
+      "report_sha256": "41c4d20f89332ad7b15d5eb0313e99351643efef3c3cb941c17ec2cf4bb91f5c",
+      "hash_matches": true
+    },
+    {
+      "stage_id": "COMPREHENSION",
+      "round_id": "full-1",
+      "writer_identity": "/root/staged_full_trial",
+      "actual_task_identity": "/root/staged_full_trial/comprehension_reader",
+      "requested_context_mode": "fork_turns:none",
+      "target_version": "v001",
+      "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "status": "COMPLETE",
+      "report": "reviews/v001/COMPREHENSION/1/report.json",
+      "report_sha256": "a22839edb054d101e2fd84c81ba42971860fadc0da26795e1cda7d7c2ef5cd4f",
+      "hash_matches": true
+    },
+    {
+      "stage_id": "CRITIQUE",
+      "round_id": "full-1",
+      "role": "evidence",
+      "writer_identity": "/root/staged_full_trial",
+      "actual_task_identity": "/root/staged_full_trial/evidence_reader",
+      "requested_context_mode": "fork_turns:none",
+      "target_version": "v001",
+      "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "status": "COMPLETE",
+      "report": "reviews/v001/CRITIQUE/1/evidence.json",
+      "report_sha256": "518ecb09f2b4c0e80d5b8ce456b067dcc08ef045ba990de721ab6f3332b875bb",
+      "hash_matches": true
+    },
+    {
+      "stage_id": "CRITIQUE",
+      "round_id": "full-1",
+      "role": "argument",
+      "writer_identity": "/root/staged_full_trial",
+      "actual_task_identity": "/root/staged_full_trial/argument_reader",
+      "requested_context_mode": "fork_turns:none",
+      "target_version": "v001",
+      "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "status": "COMPLETE",
+      "report": "reviews/v001/CRITIQUE/1/argument.json",
+      "report_sha256": "8ccb1d9437f71a0de3bd9a9a2dbc7a7554075ad09b68d182baef98553223cc2e",
+      "hash_matches": true
+    },
+    {
+      "stage_id": "CRITIQUE",
+      "round_id": "full-1",
+      "role": "reader",
+      "writer_identity": "/root/staged_full_trial",
+      "actual_task_identity": "/root/staged_full_trial/requirements_reader",
+      "requested_context_mode": "fork_turns:none",
+      "target_version": "v001",
+      "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+      "status": "COMPLETE",
+      "report": "reviews/v001/CRITIQUE/1/reader.json",
+      "report_sha256": "982c0c465b72281100cb72b5e5d02a903f9c3270c779319872b8ffa97d7973ba",
+      "hash_matches": true
+    }
+  ],
+  "independence_basis": "Actual collaboration.spawn_agent calls all fork_turns none; input restrictions recorded in exact dispatch files",
+  "unknown_observations": []
+}

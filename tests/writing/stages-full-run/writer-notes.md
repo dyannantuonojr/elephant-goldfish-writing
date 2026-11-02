@@ -1,0 +1,11 @@
+# Persistent Elephant notes
+
+Identity /root/staged_full_trial. Full preset, synthetic only. Initial concept rejected through three justified fixes; scope assessment planning, no business action. Main warrant: limited supplier signal makes investigation plausible, but operational/financial unknowns prevent trial spending recommendation. S1 is planning assumptions, not quote: use only license arithmetic; S2 is biased short volunteer demonstration, not causal/general evidence; S3 bounds permissible recommendation and operational unknowns. Unknown methods and full data remain unknown. No external sources. Draft reread continuously: opening decision → benefit and measurement → cost/operational feasibility → ownership and closure. Twelve-month arithmetic is conditional arithmetic, not contract commitment.
+
+Source synopsis S1: purpose cost scale; author project planning assumptions; claims 80 users/$20 monthly; evaluation incomplete costs/currency; permitted use license-only scenario; locator S1 full paragraph. S2: purpose assess benefit signal; author supplier promotion; claims volunteer speed report; evaluation no comparator/underlying data/quality/profit; permitted use attributed reason to test; locator S2 full paragraph. S3: purpose bound next decision; author operational constraints; claims no owner/integration/budget/approval, possible restricted data; evaluation supplied constraints not compliance proof; permitted use planning limits and proposed safeguards; locator S3 full paragraph.
+
+## Comprehension comparison
+Full reader paraphrase preserved separately. No substantive mismatch: reader reconstructs scope planning only, supplier signal and limits, cost scenario not quote, unresolved ownership and safeguards; next action sponsor scoping rather than launch or spend. No revision justified at this stage.
+
+## Critique resolution
+All three fresh original reports and original synthesizer trace read. One MINOR evidence finding accepted after direct S2 comparison. v002 changes only first benefit sentence to keep staff self-report. This calibration does not change recommendation, reasoning, limits or expected action; no material comprehension recheck warranted. One focused fresh evidence check requested; final altitude follows. Full preset does not establish deep convergence.

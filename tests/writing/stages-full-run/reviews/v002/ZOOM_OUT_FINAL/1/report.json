@@ -1,0 +1,113 @@
+{
+  "reviewer": "big-picture",
+  "status": "COMPLETE",
+  "stage_id": "ZOOM_OUT_FINAL",
+  "round_id": "full-1",
+  "reviewed_version": "v002",
+  "reviewed_sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "coverage": [
+    "Entire draft-v002.md: recommendation, benefits, costs, operational conditions, ownership and closure",
+    "brief.md: assessment decision, benefits/limits, licenses, risks, ownership, next evidence and Markdown scope",
+    "sources.md: complete supplied S1, S2 and S3 records",
+    "Work-document standard and WW-04/05"
+  ],
+  "findings": [],
+  "gaps": [],
+  "block_contribution_map": [
+    {
+      "location": "Opening paragraph",
+      "contribution": "Defines the immediate leadership decision as sponsoring assessment scoping and bounds commitment; the unresolved benefit, deployment and ownership questions establish why later evidence is needed."
+    },
+    {
+      "location": "Benefits worth testing, paragraph 1",
+      "contribution": "Supplies the reason to investigate and explains why the demonstration cannot predict team-wide outcomes."
+    },
+    {
+      "location": "Benefits worth testing, paragraph 2",
+      "contribution": "Translates the limited speed finding into an end-to-end comparison and distinguishes usable capacity from unsupported financial return."
+    },
+    {
+      "location": "Cost and operational conditions, paragraph 1",
+      "contribution": "Makes the 80-user license arithmetic explicit while retaining unknown total-cost components and distinguishing assessment cost from rollout cost."
+    },
+    {
+      "location": "Cost and operational conditions, paragraph 2",
+      "contribution": "Moves beyond price to feasibility and client-information constraints; proposed safeguards become assessment-plan requirements rather than assurances."
+    },
+    {
+      "location": "Ownership and next evidence, paragraph 1",
+      "contribution": "Assigns leadership the next organizational action while keeping the lead, timing and success thresholds explicitly unassigned or proposed."
+    },
+    {
+      "location": "Final paragraph",
+      "contribution": "Collects the measures and feasibility evidence into a later trial-versus-existing-practice decision, closing within the opening request without implying approval."
+    }
+  ],
+  "whole_answer_assessment": {
+    "question": "What next decision is justified about trialling document assistance for an 80-person professional-service team?",
+    "answer_as_read": "Sponsor scoping an assessment plan before deciding whether to fund a bounded trial.",
+    "assessment": "The whole report consistently supports this limited next step. It connects the supplier demonstration to a testable benefit, makes costs visible without inventing total expenditure or return, carries operational constraints into proposed safeguards, and gives leadership a concrete ownership action. Existing practice is preserved as a legitimate later alternative. No exhibit or appendix is supplied or needed to connect the current argument. The closure does not enlarge the thesis or convert the assessment proposal into procurement authority.",
+    "what_would_change_the_answer": "Actual comparable-work measurements of end-to-end time, correction effort and quality, established integration feasibility and information-handling conditions, accountable ownership, and a full cost estimate would enable the later trial decision. The supplied record cannot determine those outcomes."
+  },
+  "prose_links": [
+    {
+      "location": "Benefits worth testing: adjacent substantive paragraphs",
+      "first_quotation": "The supplier summary says 20 volunteer legal-office staff reported 25% faster drafting over two weeks (S2). This is a reason to investigate drafting assistance, rather than a forecast for our team. There was no comparison group, and the demonstration did not measure classification accuracy, review effort, profit or firm-wide outcomes. Volunteer selection and the legal-office setting also limit transfer to an 80-person professional-service team. The full report and underlying data are unavailable.",
+      "second_quotation": "Faster initial drafting could release capacity, but the useful benefit depends on the effort required to check and correct outputs. An assessment should therefore compare total task time and output quality against existing practice on comparable work. Released hours would remain capacity unless a separately evidenced route to cash savings or additional revenue exists; neither labor valuation nor realized financial benefit is supplied (S1–S2).",
+      "assessment": "The second paragraph draws a warranted design implication from the first paragraph’s measurement limits: test total effort and quality rather than treating reported drafting speed as net benefit."
+    },
+    {
+      "location": "Opening recommendation to final closure",
+      "first_quotation": "The next decision is whether to develop that assessment plan; this report does not request a purchase or authorize pilot spending.",
+      "second_quotation": "The present evidence supports scoping that decision, with no procurement commitment or rollout date.",
+      "assessment": "The final limitation returns to the exact scope of the opening decision after identifying the evidence the assessment must produce."
+    }
+  ],
+  "ww_review": {
+    "standard_version": "ww-adapted-v1",
+    "checks": [
+      {
+        "id": "WW-04",
+        "status": "CHECKED",
+        "basis": "Each major block advances the assessment decision: opportunity and transfer limits lead to measurement design, costs lead to feasibility conditions, and those conditions lead to an unassigned lead and a bounded later decision. The adjacent benefits paragraphs supply an actual reasoning link rather than relying on heading order.",
+        "evidence": [
+          {
+            "location": "Benefits worth testing, paragraph 2",
+            "quotation": "An assessment should therefore compare total task time and output quality against existing practice on comparable work."
+          },
+          {
+            "location": "Cost and operational conditions, paragraph 2",
+            "quotation": "Costs alone cannot settle whether a trial is feasible."
+          }
+        ],
+        "source_refs": [
+          "S1 planning assumptions",
+          "S2 supplier demonstration summary",
+          "S3 operational constraints"
+        ]
+      },
+      {
+        "id": "WW-05",
+        "status": "CHECKED",
+        "basis": "The recommendation asks only for assessment scoping, which S3 permits leadership to sponsor. S2 supplies a limited reason to investigate rather than an outcome forecast, and S1/S3 preserve cost and deployment uncertainties. The final paragraph identifies a later trial-versus-current-practice decision and retains the present commitment boundary.",
+        "evidence": [
+          {
+            "location": "Opening paragraph",
+            "quotation": "Leadership should sponsor scoping a bounded assessment of document assistance for the 80-person team."
+          },
+          {
+            "location": "Final paragraph",
+            "quotation": "Leadership could then decide whether a bounded trial is justified or whether existing practice remains preferable."
+          }
+        ],
+        "source_refs": [
+          "S1 planning assumptions",
+          "S2 supplier demonstration summary",
+          "S3: Leadership may be asked to sponsor scoping an assessment."
+        ]
+      }
+    ]
+  },
+  "readiness": "READY_WITHIN_REVIEWED_SCOPE",
+  "scope_limit": "Fresh whole-document altitude review of these exact Markdown bytes and supplied neutral records; not detailed fix verification, export verification, owner acceptance, purchase approval or permission to send."
+}

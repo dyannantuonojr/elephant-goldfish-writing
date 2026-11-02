@@ -1,0 +1,23 @@
+{
+  "from": "v001",
+  "from_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "to": "v002",
+  "to_sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "changed_sentences": [
+    {
+      "old": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2).",
+      "new": "The supplier summary says 20 volunteer legal-office staff reported 25% faster drafting over two weeks (S2)."
+    }
+  ],
+  "other_bytes_unchanged": true,
+  "meaning_change_assessment": "Source measurement character clarified; main claim, warrants, boundaries and reader action unchanged",
+  "recheck_budget": {
+    "preset": "full",
+    "critique_rounds_used": 1,
+    "critique_round_cap": 1,
+    "targeted_evidence_used": 1,
+    "targeted_evidence_cap": 1,
+    "comprehension_recheck_used": 0
+  },
+  "convergence_claim": false
+}

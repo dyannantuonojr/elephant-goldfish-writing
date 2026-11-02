@@ -1,0 +1,20 @@
+{
+  "version": "v001",
+  "sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "words_whitespace": 446,
+  "steps": [
+    "section-purpose plan saved",
+    "same Elephant drafted all sections",
+    "whole report read continuously for bridges, terms, scope and conclusion"
+  ],
+  "source_fingerprints": {
+    "brief_sha256": "dd33b2f83611d0e2d70c47a402b409d08cd014fce84a7f3e500b8f81a52ec33c",
+    "sources_sha256": "df1abeaee6abbc1908d2956d06d66ed42160a1d1759e8b8eef0c7e8ba0c02a4b",
+    "concept_sha256": "9b78f71e37313cc0cc52e7afa09fbe8cd9b89af1df94ce64257ebf6148af73a8",
+    "scope": "Synthetic excerpts only; no external research; no export requested",
+    "writer_identity": "/root/staged_full_trial",
+    "preset": "full",
+    "convergence_claim": false
+  },
+  "no_export_requested": true
+}

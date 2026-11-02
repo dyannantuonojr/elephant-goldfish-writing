@@ -1,0 +1,9 @@
+{
+  "finding_id": "evidence-v001-1",
+  "disposition": "FIX",
+  "actual_recheck_report": "reviews/v002/CRITIQUE_TARGETED_EVIDENCE/1/report.json",
+  "outcome": "RESOLVED_WITHIN_TARGETED_SCOPE",
+  "target_version": "v002",
+  "sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "no_whole_document_reverification_claim": true
+}

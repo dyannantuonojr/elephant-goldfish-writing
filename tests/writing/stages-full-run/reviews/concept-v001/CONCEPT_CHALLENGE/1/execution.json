@@ -1,0 +1,14 @@
+{
+  "stage_id": "CONCEPT_CHALLENGE",
+  "round_id": "full-1",
+  "writer_identity": "/root/staged_full_trial",
+  "actual_task_identity": "/root/staged_full_trial/concept_reader",
+  "requested_context_mode": "fork_turns:none",
+  "target_version": "concept-v001",
+  "target_sha256": "9b78f71e37313cc0cc52e7afa09fbe8cd9b89af1df94ce64257ebf6148af73a8",
+  "returned_sha256": "9b78f71e37313cc0cc52e7afa09fbe8cd9b89af1df94ce64257ebf6148af73a8",
+  "status": "COMPLETE",
+  "report": "reviews/concept-v001/CONCEPT_CHALLENGE/1/report.json",
+  "report_sha256": "e7fa0c9cbe62d685c32838829e6b6886b8eb88c997dde1b8f18a46564a778dd3",
+  "hash_matches": true
+}

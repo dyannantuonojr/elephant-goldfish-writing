@@ -1,0 +1,28 @@
+{
+  "reason": "Coordinator generic receipt helper wrote blind-reader exclusions into readiness packet metadata. Actual saved dispatch correctly provided prior reports/records and the actual auditor used them. Original generated packet retained for provenance; this correction states actual record-aware scope without changing report or dispatch.",
+  "stage_id": "DELIVERY_READINESS",
+  "round_id": "full-1",
+  "target": "C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/draft-v002.md",
+  "version": "v002",
+  "sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "context_mode": "fork_turns:none",
+  "review_mode": "record-aware final audit, not blind replay",
+  "allowed_inputs": [
+    "draft-v002.md",
+    "brief.md",
+    "sources.md",
+    "execution-records.json",
+    "readiness-input-stage-matrix.json",
+    "concept-dispositions.json",
+    "critique-dispositions.json",
+    "fix-verification.json",
+    "revision-diff.json",
+    "altitude-comparison.json",
+    "original reviews and task receipts as referenced by actual dispatch"
+  ],
+  "excluded": [
+    "private writer notes",
+    "external research"
+  ],
+  "no_content_review_changed": true
+}

@@ -1,0 +1,15 @@
+{
+  "stage_id": "CRITIQUE",
+  "round_id": "full-1",
+  "role": "reader",
+  "writer_identity": "/root/staged_full_trial",
+  "actual_task_identity": "/root/staged_full_trial/requirements_reader",
+  "requested_context_mode": "fork_turns:none",
+  "target_version": "v001",
+  "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "returned_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "status": "COMPLETE",
+  "report": "reviews/v001/CRITIQUE/1/reader.json",
+  "report_sha256": "982c0c465b72281100cb72b5e5d02a903f9c3270c779319872b8ffa97d7973ba",
+  "hash_matches": true
+}

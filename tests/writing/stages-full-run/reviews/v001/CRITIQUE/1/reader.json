@@ -1,0 +1,158 @@
+{
+  "reviewer": "reader",
+  "status": "COMPLETE",
+  "stage_id": "CRITIQUE",
+  "round_id": "full-1",
+  "reviewed_version": "v001",
+  "reviewed_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "coverage": [
+    "Entire draft-v001.md: title, opening recommendation, Benefits worth testing, Cost and operational conditions, Ownership and next evidence, and closing decision",
+    "Entire neutral brief.md and original sources.md records S1, S2 and S3",
+    "Work standard, review contract, staged workflow/pipeline and Wallace-Wray WW-04/05/06"
+  ],
+  "findings": [],
+  "gaps": [
+    "S2 full report and underlying data are unavailable; the report explicitly preserves that supplied access limit.",
+    "Currency code, taxes, contract terms, training/implementation costs, labor valuation, integration results and accountable owner remain unknown in the supplied records and are identified as unknown or proposed in the draft.",
+    "No exact Word/PDF rendering was supplied or inspected. Markdown only is required; export acceptance is outside this review."
+  ],
+  "readiness": "READY_WITHIN_REVIEWED_SCOPE",
+  "requirement_coverage": [
+    {
+      "requirement": "Concise 350–500-word leadership report in Markdown",
+      "status": "COVERED",
+      "location": "Whole draft",
+      "evidence": "446 whitespace-delimited words including headings; 422 excluding heading lines. Markdown headings and seven prose paragraphs; no Word/PDF deliverable is required."
+    },
+    {
+      "requirement": "Assess whether to trial a document-assistance tool for an 80-person professional-service team and recommend the next decision",
+      "status": "COVERED",
+      "location": "Opening paragraph; closing paragraph",
+      "evidence": "Leadership should sponsor scoping a bounded assessment of document assistance for the 80-person team. The next decision is whether to develop that assessment plan; this report does not request a purchase or authorize pilot spending."
+    },
+    {
+      "requirement": "Explain benefits and limits",
+      "status": "COVERED",
+      "location": "Benefits worth testing, both paragraphs",
+      "evidence": "The supplier result is attributed to S2 with sample, duration, no comparison group, unmeasured outcomes and transfer limits; the next paragraph makes total task time and output quality the proposed assessment rather than forecasting financial benefit."
+    },
+    {
+      "requirement": "Explain license costs",
+      "status": "COVERED",
+      "location": "Cost and operational conditions, first paragraph",
+      "evidence": "At the planning assumption of $20 per user per month, licenses for 80 users would total $1,600 monthly, or $19,200 for twelve months (S1). Currency and excluded/unknown costs are explicitly identified."
+    },
+    {
+      "requirement": "Explain risks",
+      "status": "COVERED",
+      "location": "Cost and operational conditions, second paragraph",
+      "evidence": "No integration test or deployment owner is established, and records may contain restricted client information (S3). Proposed safeguards are distinguished from compliance or permission to release records."
+    },
+    {
+      "requirement": "Explain ownership and evidence needed",
+      "status": "COVERED",
+      "location": "Ownership and next evidence, both paragraphs",
+      "evidence": "Leadership should identify an assessment lead; that role remains unassigned. The lead would prepare scope, costs, information handling and comparison method; timing/thresholds are proposed later, and the closing paragraph lists end-to-end time, correction effort, quality, integration and full costs."
+    },
+    {
+      "requirement": "Use only supplied S1/S2/S3 records with informal attributions; invent no private facts, approvals, names or experience",
+      "status": "COVERED",
+      "location": "Whole draft against original sources.md",
+      "evidence": "Factual premises match S1–S3. Recommendations are labelled as proposed; no named staff, personal experience, procurement approval, actual budget or rollout date is asserted."
+    },
+    {
+      "requirement": "Plain, direct, proportionate style with clear decision and modest commitments",
+      "status": "COVERED",
+      "location": "Opening, all three section headings, closing paragraph",
+      "evidence": "The opening requests assessment scoping, sections address benefits/costs/ownership, and the ending retains the same limited decision. Operational terms are explained through concrete assessment tasks."
+    }
+  ],
+  "prose_links": [
+    {
+      "status": "CHECKED",
+      "location": "Benefits worth testing, adjacent paragraphs 1 and 2",
+      "first_paragraph": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2). This is a reason to investigate drafting assistance, rather than a forecast for our team. There was no comparison group, and the demonstration did not measure classification accuracy, review effort, profit or firm-wide outcomes. Volunteer selection and the legal-office setting also limit transfer to an 80-person professional-service team. The full report and underlying data are unavailable.",
+      "next_paragraph": "Faster initial drafting could release capacity, but the useful benefit depends on the effort required to check and correct outputs. An assessment should therefore compare total task time and output quality against existing practice on comparable work. Released hours would remain capacity unless a separately evidenced route to cash savings or additional revenue exists; neither labor valuation nor realized financial benefit is supplied (S1–S2).",
+      "judgment": "The first paragraph limits the supplier’s initial-drafting result and identifies unmeasured review effort and financial outcomes. The adjacent second paragraph explains why those omissions matter to leadership and translates them into a comparison of total effort/quality and a bounded financial interpretation. The link is a reasoned dependency, not merely a connective word."
+    },
+    {
+      "status": "CHECKED",
+      "location": "Cost and operational conditions, adjacent paragraphs 1 and 2",
+      "first_paragraph": "At the planning assumption of $20 per user per month, licenses for 80 users would total $1,600 monthly, or $19,200 for twelve months (S1). These figures use the supplied dollar symbol; the currency code is unspecified. They exclude unknown taxes, contract terms, training and implementation costs and are not an authenticated supplier quote. A smaller assessment's license cost would depend on its participant count and terms; no evaluation budget is approved (S3).",
+      "next_paragraph": "Costs alone cannot settle whether a trial is feasible. No integration test or deployment owner is established, and records may contain restricted client information (S3). The assessment plan should define permitted test material, access controls, review responsibilities and a way to stop work if information-handling or quality concerns arise. These are proposed safeguards to assess, not an assertion of legal compliance or approval to release client records.",
+      "judgment": "The cost paragraph establishes an incomplete planning baseline rather than an approved trial budget. Its neighbor adds the other conditions necessary for feasibility and gives concrete proposed safeguards. This broadens the decision on an explained basis while retaining the distinction between scoping and execution."
+    }
+  ],
+  "conclusion_linkage": {
+    "status": "CHECKED",
+    "opening_main_claim": "Leadership should sponsor scoping a bounded assessment of document assistance for the 80-person team.",
+    "conclusion": "The subsequent decision should consider measured end-to-end time, correction effort, quality, integration feasibility and full costs. Leadership could then decide whether a bounded trial is justified or whether existing practice remains preferable. The present evidence supports scoping that decision, with no procurement commitment or rollout date.",
+    "judgment": "The conclusion recovers the opening request and the earlier reasons: limited drafting evidence motivates investigation, total effort/quality defines useful benefit, incomplete costs and operational conditions prevent committing to a trial. Its criteria recur from the body; the existing-practice alternative follows the proposed comparison baseline. It introduces no claim of demonstrated net benefit or authorization."
+  },
+  "ww_review": {
+    "standard_version": "ww-adapted-v1",
+    "checks": [
+      {
+        "id": "WW-04",
+        "status": "CHECKED",
+        "basis": "All seven substantive paragraphs contribute to the same decision. The opening establishes scoping; the supplier paragraph assesses the potential benefit and its bounds; the next derives the relevant measurement; the cost paragraph establishes the planning baseline; the risk paragraph adds feasibility conditions; the ownership paragraph makes scoping actionable without inventing an owner or deadline; the closing paragraph collects decision criteria. Actual adjacent pairs are quoted in prose_links. There are no exhibits or appendices needing integration.",
+        "evidence": [
+          {
+            "location": "Benefits worth testing, second paragraph",
+            "quotation": "An assessment should therefore compare total task time and output quality against existing practice on comparable work."
+          },
+          {
+            "location": "Ownership and next evidence, first paragraph",
+            "quotation": "The proposed lead would develop the scope, cost estimate, information-handling conditions and comparison method before any later request to fund a trial."
+          }
+        ],
+        "source_refs": [
+          "brief.md: requested benefits, costs, risks, ownership and evidence",
+          "sources.md: S1–S3"
+        ]
+      },
+      {
+        "id": "WW-05",
+        "status": "CHECKED",
+        "basis": "The supplied record permits leadership to sponsor assessment scoping. The draft leads with precisely that action, supports it through bounded potential benefit and unresolved cost/operational conditions, and closes with the same limited implication. It distinguishes the current scoping decision from a later trial decision and preserves existing practice as an option.",
+        "evidence": [
+          {
+            "location": "Opening paragraph",
+            "quotation": "The next decision is whether to develop that assessment plan; this report does not request a purchase or authorize pilot spending."
+          },
+          {
+            "location": "Closing paragraph",
+            "quotation": "The present evidence supports scoping that decision, with no procurement commitment or rollout date."
+          }
+        ],
+        "source_refs": [
+          "sources.md: S2 supplier demonstration limits",
+          "sources.md: S3 leadership may be asked to sponsor scoping; no budget/procurement/rollout approval"
+        ]
+      },
+      {
+        "id": "WW-06",
+        "status": "CHECKED",
+        "basis": "Leadership receives the requested action before detail. The license arithmetic has a clear user count, rate and periods; unspecified currency and extra costs remain visible. Capacity is distinguished from cash benefit in plain terms. The unassigned lead and proposed timing/thresholds make unknowns understandable without inventing agreement. No model was supplied, so no model-based style judgment is claimed.",
+        "evidence": [
+          {
+            "location": "Cost and operational conditions, first paragraph",
+            "quotation": "These figures use the supplied dollar symbol; the currency code is unspecified."
+          },
+          {
+            "location": "Ownership and next evidence, first paragraph",
+            "quotation": "Leadership should identify an assessment lead; that role remains unassigned."
+          },
+          {
+            "location": "Benefits worth testing, second paragraph",
+            "quotation": "Released hours would remain capacity unless a separately evidenced route to cash savings or additional revenue exists; neither labor valuation nor realized financial benefit is supplied (S1–S2)."
+          }
+        ],
+        "source_refs": [
+          "brief.md: leadership audience and plain, direct, proportionate style",
+          "sources.md: S1 unspecified costs/labor valuation; S3 unassigned owner"
+        ]
+      }
+    ]
+  }
+}

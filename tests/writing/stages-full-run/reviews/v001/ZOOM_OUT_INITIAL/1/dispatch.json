@@ -1,0 +1,5 @@
+{
+  "task_name": "initial_altitude",
+  "fork_turns": "none",
+  "message": "Fresh read-only big-picture Goldfish, stage ZOOM_OUT_INITIAL round full-1. Read persona C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/agents/big-picture.md, referenced review contract, staged workflow, work and Wallace-Wray standards. Target C:/Users/dyann/AppData/Local/Temp/egm-staged-full-dccdddd1f15349339549fedd897f1635/draft-v001.md (version v001); neutral brief.md and original sources.md same folder. Only these files; no writer notes/other reports, research, edits or spawns. Compute actual draft SHA256. Return full JSON report including stage/round/hash, WW04/05 and real findings. Save the identical original report JSON only at reviews/v001/ZOOM_OUT_INITIAL/1/report.json under target folder (report-artifact write allowed). Use node_repl fs for stable temp. Reply concise report summary, exact path/hash and findings; do not change target."
+}

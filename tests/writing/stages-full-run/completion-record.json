@@ -1,0 +1,26 @@
+{
+  "writer": "/root/staged_full_trial",
+  "preset": "full",
+  "workflow": "CONCEPT_CHALLENGE -> SECTION_DRAFT -> ZOOM_OUT_INITIAL -> COMPREHENSION -> CRITIQUE (three roles + synthesis) -> same-writer FIX v002 -> one targeted evidence recheck -> ZOOM_OUT_FINAL -> DELIVERY_READINESS",
+  "actual_task_count": 10,
+  "review_receipt_count": 9,
+  "findings": {
+    "concept_major": 3,
+    "concept_fixed": 3,
+    "critique_minor": 1,
+    "critique_fixed_and_targeted_verified": 1,
+    "final_altitude": 0,
+    "readiness": 0
+  },
+  "final_version": "v002",
+  "final_sha256": "b19f397ea782f0559fab828fa1dacac894ee64d0a4efd3747b103fe030e18673",
+  "word_count": 447,
+  "paraphrase_preserved_verbatim": true,
+  "full_workflow_executed": true,
+  "no_convergence_claim": true,
+  "no_broad_quality_superiority_claim": true,
+  "source_access": "Synthetic supplied records only; no external calls",
+  "writes": "Trial artifacts only under stable OS temp; no fixture/package changes",
+  "owner_acceptance": "NOT_REQUESTED_NOT_INFERRED",
+  "business_action": "NONE"
+}

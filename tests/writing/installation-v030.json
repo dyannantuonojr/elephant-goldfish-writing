@@ -1,0 +1,100 @@
+{
+  "plugin_id": "egm-writing@egm-writing-fork",
+  "version": "0.3.0",
+  "source_commit": "1691d03",
+  "installed_path": "C:\\Users\\dyann\\.codex\\plugins\\cache\\egm-writing-fork\\egm-writing\\0.3.0",
+  "files_compared": 21,
+  "all_bytes_match": true,
+  "files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "sha256": "11e139410c8bf650807e083308f9603887de1eb64e67b109d73c1f8dd417e9a3"
+    },
+    {
+      "path": "agents/argument.md",
+      "sha256": "c6fd93d1b6e35c797632d0287cc89b5b88026bb402a2b1c5167df9c95a0db774"
+    },
+    {
+      "path": "agents/big-picture.md",
+      "sha256": "ca081d25a06f7a1337846d368d8e76d059812dec98270a85635fac1463ca35d8"
+    },
+    {
+      "path": "agents/comprehension.md",
+      "sha256": "726a83e42c82a4d295f062ebfcf7edb258576fc9089e622d16d3e494f5f5f045"
+    },
+    {
+      "path": "agents/evidence.md",
+      "sha256": "755af5883dd7814e95f41f924d52d694e66cad5374b132cffa4e0a0f64833c1d"
+    },
+    {
+      "path": "agents/reader.md",
+      "sha256": "cbda365bf4e5a864cf3546480521b9be4dd6a43cce2a373947f14c15d8eb31a1"
+    },
+    {
+      "path": "agents/readiness.md",
+      "sha256": "4be98f60a291abf97c0ed0d8ee8d280d89edce68c9d7f470bfbd209c9207a9f8"
+    },
+    {
+      "path": "agents/synthesizer.md",
+      "sha256": "e3123d1913316054b6331731333968b2f6d44ab3605ca53b7c65d5c98f23b73b"
+    },
+    {
+      "path": "assets/icon.svg",
+      "sha256": "c4ad28836064ec9628bc1e6c78490aefe405540c502cc8343cff156160412b6b"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "96cf69e7e0d1d34f895b53d4dc1400b1f0182ecc76087326c33f4319e2cf4656"
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "b90f83712ac6dea9022ad435239203cc2d08475df3eafc83e9be4d784ae69a0e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "563c656f8dc9624755d216ca74f9be89ade9493e34ef872720d6ac5dc508b0bc"
+    },
+    {
+      "path": "resources/paper.md",
+      "sha256": "ecc9f7e39be557049db2851ec1f06a6fe8ecd7af15576863be961243038c732d"
+    },
+    {
+      "path": "resources/pipeline.json",
+      "sha256": "3dbc0234abebff3cbaadc9d2f359a2a215051241f844f8ac6f7c28407d212fbc"
+    },
+    {
+      "path": "resources/review-contract.md",
+      "sha256": "d0637b41b7b51ae9a927bd783e8a185bdab8a68b07242df686a42c70260c2469"
+    },
+    {
+      "path": "resources/staged-workflow.md",
+      "sha256": "cd41bd45ab6283d1d589af193e1a07a0361a131796b84350bb8ad100f845a583"
+    },
+    {
+      "path": "resources/wallace-wray.md",
+      "sha256": "4a4b6d2559480c8053b6678ce1da39657ae06d7cda13b5de445e85162898458a"
+    },
+    {
+      "path": "resources/work.md",
+      "sha256": "8afb32358cdebe7f619b6c6c69285fa19b3fb84c813cda5e8c6a1ae527b588e8"
+    },
+    {
+      "path": "skills/egm-write/agents/openai.yaml",
+      "sha256": "9192373c7e04b1bbb9ddd89f266117f8f7cbc2443d0a256d3b581fddfcbcf108"
+    },
+    {
+      "path": "skills/egm-write/SKILL.md",
+      "sha256": "1617e13c5f169880ebed5bf0fe099dcab53fa65297ed1338a53d4378e963db8f"
+    }
+  ],
+  "scope": "Actual source/cache byte comparison; installed/enabled status checked separately through native CLI. New chat/session loads the installed version; unrelated sessions not restarted.",
+  "native_cli_status": {
+    "installed": true,
+    "enabled": true,
+    "marketplace_upgrade_errors": []
+  }
+}

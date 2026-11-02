@@ -1,0 +1,113 @@
+{
+  "reviewer": "big-picture",
+  "status": "COMPLETE",
+  "stage_id": "ZOOM_OUT_INITIAL",
+  "round_id": "full-1",
+  "reviewed_version": "v001",
+  "reviewed_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "coverage": [
+    "Full draft: opening recommendation, Benefits worth testing, Cost and operational conditions, Ownership and next evidence, and conclusion",
+    "brief.md: leadership decision, 350–500 words, supplied-source limits, Markdown-only delivery",
+    "sources.md: complete S1, S2 and S3 records",
+    "review-contract.md, staged-workflow.md, work.md and wallace-wray.md"
+  ],
+  "block_map": [
+    {
+      "location": "Opening paragraph",
+      "role": "Requests sponsorship of assessment scoping and bounds the decision away from purchase or rollout."
+    },
+    {
+      "location": "Benefits worth testing, paragraph 1",
+      "role": "Establishes a limited reason to investigate while explaining why supplier drafting results cannot forecast team benefit."
+    },
+    {
+      "location": "Benefits worth testing, paragraph 2",
+      "role": "Converts the limited signal into an end-to-end comparison and separates capacity from financial benefit."
+    },
+    {
+      "location": "Cost and operational conditions, paragraph 1",
+      "role": "Provides the 80-user cost scale and distinguishes assumptions from quotes and assessment costs."
+    },
+    {
+      "location": "Cost and operational conditions, paragraph 2",
+      "role": "Shows why cost alone is insufficient and identifies information handling and integration dependencies."
+    },
+    {
+      "location": "Ownership and next evidence, paragraph 1",
+      "role": "Assigns leadership the next action of identifying an explicitly unassigned lead; reserves timing and thresholds for the plan."
+    },
+    {
+      "location": "Final paragraph",
+      "role": "Collects the evidence dimensions for a later trial decision, retains existing practice as an alternative, and closes at scoping authority."
+    }
+  ],
+  "findings": [],
+  "gaps": [
+    "S2 is only the supplied supplier summary; the full report and underlying data are unavailable. This limits demonstrated benefit and is disclosed in the draft.",
+    "Currency code, full costs, labor valuation, integration feasibility, lead, timing and success thresholds remain unspecified in supplied records. The draft retains these as planning dependencies rather than established facts."
+  ],
+  "prose_links": [
+    {
+      "status": "CHECKED",
+      "location": "Benefits worth testing, adjacent paragraphs 1–2",
+      "first_quotation": "The supplier reports that 20 volunteer legal-office staff drafted 25% faster over two weeks (S2). This is a reason to investigate drafting assistance, rather than a forecast for our team. There was no comparison group, and the demonstration did not measure classification accuracy, review effort, profit or firm-wide outcomes. Volunteer selection and the legal-office setting also limit transfer to an 80-person professional-service team. The full report and underlying data are unavailable.",
+      "second_quotation": "Faster initial drafting could release capacity, but the useful benefit depends on the effort required to check and correct outputs. An assessment should therefore compare total task time and output quality against existing practice on comparable work. Released hours would remain capacity unless a separately evidenced route to cash savings or additional revenue exists; neither labor valuation nor realized financial benefit is supplied (S1–S2).",
+      "reason": "The second paragraph answers what the first paragraph’s missing review-effort and outcome measures imply for assessment design. It develops the reasoning rather than merely adding another benefit."
+    }
+  ],
+  "conclusion_link": {
+    "main_claim_quotation": "Leadership should sponsor scoping a bounded assessment of document assistance for the 80-person team.",
+    "conclusion_quotation": "The present evidence supports scoping that decision, with no procurement commitment or rollout date.",
+    "judgment": "The conclusion preserves the opening’s limited next decision. Intermediate benefit, cost and operational reasons explain why scoping is warranted while a trial or rollout remains undecided."
+  },
+  "ww_review": {
+    "standard_version": "ww-adapted-v1",
+    "checks": [
+      {
+        "id": "WW-04",
+        "status": "CHECKED",
+        "basis": "The substantive blocks move from limited supplier signal to evaluation measures, cost scale, operational dependencies and ownership. The actual adjacent benefits paragraphs explain why faster drafting must be tested against correction effort and quality. No exhibit, appendix or irrelevant block interrupts that progression.",
+        "evidence": [
+          {
+            "location": "Benefits worth testing, paragraph 2",
+            "quotation": "An assessment should therefore compare total task time and output quality against existing practice on comparable work."
+          },
+          {
+            "location": "Cost and operational conditions, paragraph 2",
+            "quotation": "Costs alone cannot settle whether a trial is feasible."
+          }
+        ],
+        "source_refs": [
+          "S2: unmeasured review effort and firm-wide outcomes",
+          "S3: integration, ownership and information constraints"
+        ]
+      },
+      {
+        "id": "WW-05",
+        "status": "CHECKED",
+        "basis": "The report answers the leadership trial question with a proportionate prior decision: scope an assessment. Limited benefit evidence, incomplete costs and deployment constraints warrant that boundary; existing practice remains a credible alternative. No demonstrated profit, legal compliance or procurement authority is inferred.",
+        "evidence": [
+          {
+            "location": "Opening paragraph",
+            "quotation": "The next decision is whether to develop that assessment plan; this report does not request a purchase or authorize pilot spending."
+          },
+          {
+            "location": "Final paragraph",
+            "quotation": "Leadership could then decide whether a bounded trial is justified or whether existing practice remains preferable."
+          }
+        ],
+        "source_refs": [
+          "S1: planning assumptions and missing full costs",
+          "S2: supplier demonstration limitations",
+          "S3: leadership may sponsor scoping; no evaluation budget or procurement approved"
+        ]
+      }
+    ]
+  },
+  "overall_answer_change_conditions": [
+    "Independent comparable-work evidence of end-to-end time and output quality, assessed information-handling and integration feasibility, full costs and an accountable lead would inform whether a bounded trial is warranted.",
+    "Adverse quality, correction-effort, cost or information-handling results could favor retaining existing practice."
+  ],
+  "readiness": "READY_WITHIN_REVIEWED_SCOPE",
+  "scope_limit": "Initial whole-document altitude review only; no detailed citation audit, owner acceptance, purchase approval or export verification is claimed."
+}

@@ -1,0 +1,30 @@
+{
+  "type": "consolidation helper",
+  "stage_id": "CRITIQUE",
+  "round_id": "full-1",
+  "target_version": "v001",
+  "target_sha256": "1218a9e782902d2c070457db0d58833e138ad8afcd6cae8bc8970201d691d92c",
+  "expected_roles": [
+    "evidence",
+    "argument",
+    "reader"
+  ],
+  "reports": [
+    {
+      "role": "evidence",
+      "path": "reviews/v001/CRITIQUE/1/evidence.json",
+      "sha256": "518ecb09f2b4c0e80d5b8ce456b067dcc08ef045ba990de721ab6f3332b875bb"
+    },
+    {
+      "role": "argument",
+      "path": "reviews/v001/CRITIQUE/1/argument.json",
+      "sha256": "8ccb1d9437f71a0de3bd9a9a2dbc7a7554075ad09b68d182baef98553223cc2e"
+    },
+    {
+      "role": "reader",
+      "path": "reviews/v001/CRITIQUE/1/reader.json",
+      "sha256": "982c0c465b72281100cb72b5e5d02a903f9c3270c779319872b8ffa97d7973ba"
+    }
+  ],
+  "not_blind_review": true
+}
