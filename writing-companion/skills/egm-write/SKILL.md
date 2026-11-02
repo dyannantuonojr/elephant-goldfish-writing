@@ -1,37 +1,31 @@
 ---
 name: egm-write
-description: Use when drafting, reviewing or revising academic papers, research papers, reports, memos, proposals, policies or other professional work documents.
+description: Use when drafting, reviewing or revising academic papers, reports, memos, proposals, policies or professional documents, or checking a revision for source and argument drift.
 license: Apache-2.0
 ---
 
 # Elephant-Goldfish Writing
 
-Keep the writer's accumulated context; give fresh readers the actual document and its supporting material. This standalone companion does not depend on the upstream software-design workflow.
+The same **Elephant writer** retains the brief, source evaluations, argument and decisions. Fresh **Goldfish readers** inspect actual artifacts without the writer's conversation. This standalone companion adapts original EGM stages to writing and retains Wallace and Wray throughout.
 
-## Choose the job
+## Route and read
 
-Honor the requested action: draft, review, revise or polish. Infer **paper** or **work** mode from the supplied materials; ask only if ambiguity changes the result. A small edit needs a small edit, not a reviewer swarm.
+Honor draft, review-only, revise, quick-edit or drift scope. Infer paper/work mode from actual materials. Read complete requirements, supplied model, draft and relevant sources before asking for genuinely missing information. Use [paper](../../resources/paper.md) or [work](../../resources/work.md) standards, [Wallace-Wray](../../resources/wallace-wray.md), the [review contract](../../resources/review-contract.md) and [staged workflow](../../resources/staged-workflow.md) with its [pipeline policy](../../resources/pipeline.json).
 
-Read the complete supplied assignment/brief, rubric, model, draft and relevant source text. Extract audience, purpose or decision, genre, length, citation style, output format and constraints into a short brief. Use supplied answers rather than reopening intake. Models guide structure and depth; personal experiences and facts belong to their actual authors.
+For substantial documents default to **full**: challenge a new thesis/outline, construct sections, then initial zoom-out, comprehension paraphrase, detailed critique, second zoom-out and delivery readiness. Existing drafts enter at review. **Deep** adds bounded convergence; **quick** keeps small edits small. Review-only does not authorize revisions. An explicit stage request runs that stage with honest partial-work reporting, not a fabricated full pipeline.
 
-Use [paper standards](../../resources/paper.md) or [work standards](../../resources/work.md), plus [Wallace and Wray](../../resources/wallace-wray.md) and the shared [review contract](../../resources/review-contract.md). Apply the named standard during writing and return role-scoped `ww_review` checks during substantive review.
+## Persistent writer and artifacts
 
-## Write and preserve
+Use the user's artifact folder or a fresh `writing/<document-slug>/`. Keep brief, writer-notes, source ledger/synopses, concept/section plan, immutable drafts, original stage reports, complete paraphrases, synthesis traceability, dispositions, execution receipts and final stage-currency record. Never overwrite history. Resume the same writer from these notes after compaction.
 
-Build a connected argument appropriate to the genre. Support material claims with inspected passages; distinguish evidence, inference, recommendations and assumptions. Save immutable versions and keep working notes outside reader-facing prose. Do not invent sources, quotations, personal reflections, approvals or business results. If an essential input is unavailable, draft the supported portions and identify exactly what remains unknown.
+Connect each section to the question/decision, warranted claim, limits and next block. Assemble and read the whole document continuously. Preserve actual owner voice and supplied-model depth without borrowing experiences or facts. Source ledgers record inspected passages and access limits. Do not invent evidence, citations, owner answers or business outcomes. Keep private source text local and out of public artifacts/new providers.
 
-For a substantial document, use the user's chosen artifact folder or a new `writing/<document-slug>/` folder: `brief.md`, `writer-notes.md`, `draft-v001.md`, `sources.md`, `reviews/v001/` and `dispositions-v001.md`. Keep confidential source text local; do not publish it or send it to new providers through this skill. Never overwrite an existing version. The source ledger records location, access scope, inspected quotation and supported claim; a URL is a locator, not inspected evidence.
+## Fresh review and resolution
 
-## Read independently
+Follow the ordered stages/personas. Give blind readers neutral requirements, current draft and original source material; exclude private writer notes, intended answers and other findings. Use actual fresh/no-history dispatch, record real task identities and verify returned hashes. Missing readers are not clean reports. If fresh contexts cannot run, mark independent work NOT_RUN and author review SELF_REVIEW; never simulate stages or declare full completion.
 
-The **Elephant** is this persistent writer: retain the brief, source synopses, decisions and limitations across drafting and resolution. Resume from those durable notes after compaction; do not replace the writer with a fresh reviewer. The **Goldfish** are independent readers.
+Use the synthesizer to preserve original findings/disagreements, then let the same Elephant disposition and apply authorized fixes. Follow preset bounds, settled-issue rules, currency checks and drift instructions. Routine fixes/transitions add no owner approval questions. Missing personal facts, consequential unmade choices or exhausted review budgets remain explicit limits.
 
-When independent review is requested or materially useful, follow the review contract. Freeze the exact draft and SHA-256. Give each reader its [evidence](../../agents/evidence.md), [argument](../../agents/argument.md) or [reader](../../agents/reader.md) persona, brief, selected standard, exact draft and source material. Use fresh-context delegation without conversation history, writer explanations or other reviewers' findings. Existing harness delegation instructions govern transport and identity. Record actual dispatch identities/context mode and verify each returned draft hash before accepting its findings; the contract defines the evidence.
+## Deliver
 
-If no fresh-context tool exists, label any author review **SELF_REVIEW** and independent review **NOT_RUN**; never simulate reviewers. A failed or missing report is not zero findings. Readers return notes, not manuscript edits or new research calls.
-
-## Resolve and deliver
-
-Validate and disposition findings as fix, reject with evidence or retain gap. Apply authorized routine revisions without another approval at every internal step. Default to one review, one revision and a focused independent recheck of material fixes; stop there and report remaining issues unless the user requests more. Preserve the report's reviewed hash; a changed draft needs its own identity.
-
-Use available Word/PDF skills for requested files and inspect the actual rendered result. Without rendering, provide the honest text draft, not a claim of layout acceptance. Report the delivered version, evidence and review coverage, substantive improvements and remaining limits. Draft quality, source support, rendered layout and owner acceptance are separate facts. Sending, publication and submission require the user's actual authorization.
+Use available Word/PDF skills for requested files and inspect actual exact-version renders. Required but absent render evidence leaves artifact readiness GAP. Report delivered version, stages and actual reviewed hashes, improvements, gaps and supported next use. Review completion, support, rendered checks and owner acceptance are separate. Sending/publication/submission need actual user authorization.

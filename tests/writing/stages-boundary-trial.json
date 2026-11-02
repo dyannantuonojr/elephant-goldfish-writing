@@ -1,0 +1,19 @@
+{
+  "task": "/root/stages_boundary_trial",
+  "kind": "Rule-application cases; not an actual five-round execution",
+  "results": {
+    "five_rounds_with_only_one_clean_then_missing_reader_and_mandatory_gap": {
+      "converged": false,
+      "round5_clean": false,
+      "unqualified_ready": false,
+      "next": "Preserve actual gaps and cap; no sixth critique round without user direction"
+    },
+    "settled_discretionary_X": "Remains settled absent changed evidence/scope and with recorded reason",
+    "fixed_Y_returns": "Reopen; a fix is not proof of resolution",
+    "opposing_fix": "Detect churn and stop cycling",
+    "drift_only": "Read-only; report removed limitation/unsupported stronger claim, actual hashes only if files exist; no automatic repairs/providers/full pipeline",
+    "missing_drift_baseline": "Comparison unavailable; never fabricate history/hash",
+    "bullet_only_request": "Adjacent prose evidence NOT_APPLICABLE, still assess block contribution and bounded next action; no invented scholarly requirement"
+  },
+  "limits": "Constrained instruction application only; separate end-to-end run validates actual staged dispatch."
+}

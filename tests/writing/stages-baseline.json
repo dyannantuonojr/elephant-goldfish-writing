@@ -1,0 +1,21 @@
+{
+  "task": "/root/stages_baseline",
+  "version": "0.2.0 instructions",
+  "observed_flow": [
+    "brief",
+    "connected draft",
+    "optional relevant fresh readers",
+    "disposition",
+    "one revision and focused recheck"
+  ],
+  "missing_required_mechanisms": [
+    "pre-draft challenge",
+    "section construction",
+    "five ordered reviews",
+    "comprehension paraphrase",
+    "dedicated synthesis",
+    "deep convergence",
+    "revision drift"
+  ],
+  "interpretation": "Instruction inventory, not a measured quality benchmark"
+}

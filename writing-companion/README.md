@@ -1,6 +1,6 @@
 # Elephant-Goldfish Writing
 
-A standalone community companion for academic papers and professional documents, built in a fresh fork of Google's Elephant-Goldfish Model. It retains the context-rich writer and fresh-reader idea, with writing-specific standards and three reader personas. This companion is maintained by the fork owner, not Google. Apache-2.0; the original software skills remain available separately.
+A standalone community companion for academic papers and professional documents, built in a fresh fork of Google's Elephant-Goldfish Model. It retains the context-rich writer and fresh-reader idea, with writing-specific standards and staged reader personas. This companion is maintained by the fork owner, not Google. Apache-2.0; the original software skills remain available separately.
 
 ## Install in Codex
 
@@ -22,14 +22,25 @@ Select **Elephant-Goldfish Writing**, or invoke `$egm-write`:
 - `Use $egm-write to revise this report after the attached feedback, preserving my voice.`
 - `Use $egm-write to polish this memo; keep the edit small.`
 
-The [skill](skills/egm-write/SKILL.md) chooses [paper](resources/paper.md) or [work-document](resources/work.md) standards. For substantial reviews the writer freezes the draft and supplies fresh readers the version, brief and actual sources. The [review contract](resources/review-contract.md) defines exact findings and honest coverage/readiness. One review, one revision and a focused material-fix recheck are the default budget, not an endless loop.
+The [skill](skills/egm-write/SKILL.md) chooses [paper](resources/paper.md) or [work-document](resources/work.md) standards. For substantial reviews the writer freezes the draft and supplies fresh readers the version, brief and actual sources. The [review contract](resources/review-contract.md) defines exact findings and honest coverage/readiness. The [staged workflow](resources/staged-workflow.md) and [pipeline policy](resources/pipeline.json) define full/deep/quick budgets and stage currency.
 
 Drafts and source ledgers stay in the user's chosen local artifact folder. No documents are published, sent or submitted by installation or skill invocation. Unknown evidence, personal inputs and business facts remain visible; a supplier account is not independent verification. Word/PDF export uses available document tools and requires actual render inspection. This is a writing/review workflow, not a research-provider service or a compliance certification.
 
 ## Wallace and Wray and the two memory roles
 
-Version 0.2.0 explicitly applies an [attributed Wallace and Wray adaptation](resources/wallace-wray.md) in both modes. It covers purpose-led source synopses, warranted claim strength, comparative synthesis, paragraph/block linkage, bounded conclusion and reader comprehension. Writers keep evaluations and decision history; fresh readers independently return role-specific checks grounded in actual passages. The check identifiers and budgets are companion implementation choices, not the authors' scores.
+Version 0.3.0 retains an [attributed Wallace and Wray adaptation](resources/wallace-wray.md) in both modes. It covers purpose-led source synopses, warranted claim strength, comparative synthesis, paragraph/block linkage, bounded conclusion and reader comprehension. Writers keep evaluations and decision history; fresh readers independently return role-specific checks grounded in actual passages. The check identifiers and budgets are companion implementation choices, not the authors' scores.
 
 The **Elephant** is the same writer maintaining the brief, source readings, argument and decisions through revision. **Goldfish** are actual fresh-context reader agents receiving the frozen draft, brief and raw source material without that conversation or writer rationale. The execution record retains real dispatch identities and draft hashes. If independent contexts are unavailable or unproved, that limit stays explicit; self-review is not renamed Goldfish review.
 
-This implements EGM's core memory-separation pattern for writing. It does not claim to run the original software plugin's entire design-specification workflow, nor to implement a new autonomous runtime. These are host-executed skills and standards. Small edits remain small, and the user retains authorship and acceptance.
+This restores EGM's stage structure for writing while adapting software-specific scopes. These are host-executed skills and declarative policy, not a new autonomous runtime. Small edits remain small, and the user retains authorship and acceptance.
+
+## Restored original stages
+
+New substantial documents use thesis/outline challenge and section-purpose drafting. Full review runs **initial zoom-out -> comprehension paraphrase -> detailed critique -> second zoom-out -> delivery readiness**. The same Elephant resolves original findings through a provenance-preserving synthesizer; fresh readers stay independent. Keep the complete paraphrase even with no findings.
+
+- `Use $egm-write to draft this report and run the full staged review.`
+- `Use $egm-write for a full review only; do not edit my paper.`
+- `Use $egm-write in deep mode to stress-test this proposal within the round cap.`
+- `Use $egm-write to check drift between these revisions and their source ledgers.`
+
+Full mode has one detailed critique/revision round and bounded targeted rechecks. Deep allows up to five critique rounds, needs two consecutive clean rounds for convergence and stops on churn. Settled discretionary findings stay settled unless evidence changes them; fixed defects can recur. Mandatory gaps never become accepted compliance. Final reporting distinguishes historical reviews, actual current-version checks and missing export evidence. Review-only and quick scopes remain honored.

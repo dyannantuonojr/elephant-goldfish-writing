@@ -18,7 +18,7 @@ The owner selected a separate companion over editing upstream EGM. A nested pack
 
 Infer paper/work mode from the request and supplied documents. Build a brief from available facts; ask only for missing information that changes the document. Keep drafts versioned. Paper readers check assignment coverage, evidence and argument. Work readers check audience, decision, assumptions, feasibility and clarity. Both inspect actual adjacent paragraph links and conclusion closure. Reviewers read supplied source bytes; a bibliography or URL alone is not source verification. Review reports distinguish complete, partial and not-run reviewers; readiness is scoped to available evidence and actual output checks.
 
-Default to one review, one writer revision and a focused recheck of material fixes. Do not seek an endless zero-findings convergence. The user may request more. Fresh-context review is optional for small ordinary edits; if unavailable, label self-review honestly. Formatting uses an available document/PDF tool and actual render checks. Test with synthetic inputs only.
+The original 0.1/0.2 release used one review, one revision and a focused recheck. Version 0.3 supersedes that default with the full/deep/quick budgets and restored stages below. Do not seek unbounded convergence. Fresh-context review is optional for small ordinary edits; if unavailable, label self-review honestly. Formatting uses an available document/PDF tool and actual render checks. Test with synthetic inputs only.
 
 ## Validation
 
@@ -29,3 +29,9 @@ Check independent plugin installation, bundled references, metadata, source/clai
 The owner requested Wallace and Wray writing standards and an audit of Elephant/Goldfish behavior. Implement a bundled, source-attributed adaptation in both modes rather than relying on the model to remember the book. The writer records purpose-led source evaluations, a synthesis position and claim boundaries. Fresh readers independently inspect the original source material and return explicit role-scoped reasoning checks, passage evidence and gaps. Durable writer context remains with the writer; it is not copied into blind reviewer contexts. Existing brief, source and scope limits still govern.
 
 Concepts are grounded in the authors' actual book/excerpt and linked to publisher resources; do not redistribute source text or claim verification of the latest edition. The companion's check IDs, status values, evidence fields and one-review budget are local implementation choices. No formula, score, reviewer count or dissertation section layout is attributed to Wallace and Wray.
+
+## Restored EGM stages extension
+
+The owner explicitly approved bringing back upstream EGM's stages in this standalone writing fork while retaining Wallace-Wray. New substantial documents start with a challenge of thesis/scope/outline and section-purpose drafting. Full review then runs initial zoom-out, explicit comprehension paraphrase, detailed critique, second zoom-out and delivery-readiness review. Critique combines evidence, argument and reader lenses through a provenance-preserving synthesizer; the same Elephant dispositions and revises.
+
+Restore bounded deep convergence, settled findings and churn detection plus an explicit document-drift action. Preserve fast edits and review-only behavior. Use the original EGM architecture as a structural model, translating implementation readiness to document delivery and code drift to source/requirement/argument drift. Do not import software-specific artifacts, obligatory research, repeated routine human gates or automatic submission. The stage policy is declarative prompt input, not a claimed new autonomous runtime.

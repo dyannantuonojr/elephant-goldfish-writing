@@ -17,9 +17,9 @@ These check IDs, report fields and review budgets are our engineering choices, n
 | WW-01 | Evaluate sources for the actual question; record the five synopsis dimensions and access limits. | evidence |
 | WW-02 | Compare each material claim's certainty and range with its actual backing; expose missing warrants. | evidence |
 | WW-03 | Compare relevant sources on a common issue, explaining agreement, tension, method and context differences. | argument |
-| WW-04 | Explain each substantive paragraph/block's role and its contribution to the next step; inspect real neighboring prose and exhibits. | argument, reader |
-| WW-05 | Trace the question/decision through reasons and evidence to a conclusion with bounded implications. | argument, reader |
-| WW-06 | Make the reasoning intelligible to this audience: stable terms, clear assumptions and proportionate explanation. | reader |
+| WW-04 | Explain each substantive paragraph/block's role and its contribution to the next step; inspect real neighboring prose and exhibits. | argument, reader, comprehension, big-picture |
+| WW-05 | Trace the question/decision through reasons and evidence to a conclusion with bounded implications. | argument, reader, comprehension, big-picture, readiness |
+| WW-06 | Make the reasoning intelligible to this audience: stable terms, clear assumptions and proportionate explanation. | reader, comprehension, readiness |
 
 ## Writer use
 
@@ -34,3 +34,5 @@ Return assigned checks in `ww_review` using the [review contract](review-contrac
 ## Attribution limits
 
 No full book or publisher template is redistributed. The inspected edition locations above are specific; do not assert that the fifth edition or every chapter was verified. [SAGE's fifth-edition page](https://study.sagepub.com/wallaceandwray5e/student-resources) establishes that edition's resource availability, not a review of its full contents.
+
+The [staged workflow](staged-workflow.md) places these checks in the restored EGM sequence. Stage counts, clean-round budgets and transport records are EGM/companion controls, not Wallace-Wray formulas. Readiness samples WW-02 within declared scope; it does not replace detailed evidence reading.

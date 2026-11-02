@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "default_substantial_preset": "full",
+  "new_document_steps": [
+    "CONCEPT_CHALLENGE",
+    "SECTION_DRAFT"
+  ],
+  "review_stages": [
+    {
+      "id": "ZOOM_OUT_INITIAL",
+      "roles": [
+        "big-picture"
+      ],
+      "artifact": "01-zoom-out.json",
+      "scope": "whole_document",
+      "wallace_wray_checks": [
+        "WW-04",
+        "WW-05"
+      ]
+    },
+    {
+      "id": "COMPREHENSION",
+      "roles": [
+        "comprehension"
+      ],
+      "artifact": "02-comprehension.json",
+      "scope": "whole_document",
+      "preserve_paraphrase": true,
+      "wallace_wray_checks": [
+        "WW-04",
+        "WW-05",
+        "WW-06"
+      ]
+    },
+    {
+      "id": "CRITIQUE",
+      "roles": [
+        "evidence",
+        "argument",
+        "reader"
+      ],
+      "synthesizer": "synthesizer",
+      "artifact": "03-critique.json",
+      "scope": "whole_document",
+      "wallace_wray_checks": [
+        "WW-01",
+        "WW-02",
+        "WW-03",
+        "WW-04",
+        "WW-05",
+        "WW-06"
+      ]
+    },
+    {
+      "id": "ZOOM_OUT_FINAL",
+      "roles": [
+        "big-picture"
+      ],
+      "artifact": "04-zoom-out.json",
+      "scope": "whole_document",
+      "wallace_wray_checks": [
+        "WW-04",
+        "WW-05"
+      ]
+    },
+    {
+      "id": "DELIVERY_READINESS",
+      "roles": [
+        "readiness"
+      ],
+      "artifact": "05-readiness.json",
+      "scope": "whole_document_and_actual_artifacts",
+      "wallace_wray_checks": [
+        "WW-02",
+        "WW-05",
+        "WW-06"
+      ]
+    }
+  ],
+  "presets": {
+    "quick": {
+      "stages": [],
+      "independent_review_required": false
+    },
+    "full": {
+      "stages": [
+        "ZOOM_OUT_INITIAL",
+        "COMPREHENSION",
+        "CRITIQUE",
+        "ZOOM_OUT_FINAL",
+        "DELIVERY_READINESS"
+      ],
+      "max_critique_rounds": 1,
+      "max_targeted_rechecks_per_stage": 1
+    },
+    "deep": {
+      "stages": [
+        "ZOOM_OUT_INITIAL",
+        "COMPREHENSION",
+        "CRITIQUE",
+        "ZOOM_OUT_FINAL",
+        "DELIVERY_READINESS"
+      ],
+      "max_critique_rounds": 5,
+      "consecutive_clean_rounds": 2,
+      "max_targeted_rechecks_per_stage": 1
+    }
+  },
+  "drift_scope": [
+    "requirements",
+    "source_support",
+    "argument",
+    "settled_findings",
+    "voice",
+    "artifacts"
+  ],
+  "policy_is_declarative": true
+}

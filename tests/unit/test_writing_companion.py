@@ -11,7 +11,7 @@ def test_companion_is_distinct_and_installable():
     portable = json.loads((PACKAGE / "plugin.json").read_text(encoding="utf-8"))
     codex = json.loads((PACKAGE / ".codex-plugin/plugin.json").read_text(encoding="utf-8"))
     assert portable["name"] == codex["name"] == "egm-writing"
-    assert portable["version"] == codex["version"] == "0.2.0"
+    assert portable["version"] == codex["version"] == "0.3.0"
     assert (PACKAGE / codex["skills"] / "egm-write/SKILL.md").is_file()
     assert portable["name"] != json.loads((ROOT / "plugin.json").read_text())["name"]
     assert not any(k in codex for k in ("hooks", "mcpServers", "apps"))
@@ -39,9 +39,9 @@ def test_all_companion_links_survive_copy_installation(tmp_path):
             dest = (md.parent / target.split("#")[0]).resolve()
             assert dest.is_relative_to(installed.resolve()), (md, target)
             assert dest.is_file(), (md, target)
-    for name in ("evidence", "argument", "reader"):
+    for name in ("evidence", "argument", "reader", "big-picture", "comprehension", "readiness", "synthesizer"):
         assert (installed / f"agents/{name}.md").is_file()
-    for name in ("paper", "work", "review-contract", "wallace-wray"):
+    for name in ("paper", "work", "review-contract", "wallace-wray", "staged-workflow"):
         assert (installed / f"resources/{name}.md").is_file()
     for manifest in ("plugin.json", ".codex-plugin/plugin.json"):
         obj = json.loads((installed / manifest).read_text())
@@ -79,3 +79,25 @@ def test_wallace_wray_standard_is_reachable_from_skill_and_every_reader():
                 if linked.suffix == ".md" and linked.is_file():
                     pending.append(linked)
         assert target in visited, f"{start} cannot reach the writing standard"
+
+
+def test_restored_pipeline_order_and_bounded_presets():
+    policy = json.loads((PACKAGE / "resources/pipeline.json").read_text())
+    stages = policy["review_stages"]
+    expected = ["ZOOM_OUT_INITIAL", "COMPREHENSION", "CRITIQUE", "ZOOM_OUT_FINAL", "DELIVERY_READINESS"]
+    assert [s["id"] for s in stages] == expected
+    assert policy["new_document_steps"] == ["CONCEPT_CHALLENGE", "SECTION_DRAFT"]
+    assert policy["default_substantial_preset"] == "full"
+    assert policy["presets"]["full"]["stages"] == expected
+    assert policy["presets"]["deep"]["stages"] == expected
+    assert policy["presets"]["quick"]["stages"] == []
+    assert policy["presets"]["deep"]["max_critique_rounds"] == 5
+    assert policy["presets"]["deep"]["consecutive_clean_rounds"] == 2
+    assert stages[1]["preserve_paraphrase"] is True
+    assert stages[2]["roles"] == ["evidence", "argument", "reader"]
+    assert stages[2]["synthesizer"] == "synthesizer"
+    assert len({s["artifact"] for s in stages}) == 5
+    for stage in stages:
+        for role in stage["roles"]:
+            assert (PACKAGE / f"agents/{role}.md").is_file()
+        assert stage["wallace_wray_checks"]

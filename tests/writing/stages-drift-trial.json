@@ -1,0 +1,46 @@
+{
+  "action": "DRIFT",
+  "evaluator": "/root/stages_boundary_trial",
+  "execution_scope": "Actual read-only file comparison in an existing context; not a fresh independent Goldfish review.",
+  "hashes_sha256": {
+    "draft-v001.md": "d350ccd571151d14806063a06aac551d02a87b8e00e987074f2e56ee907c82f2",
+    "draft-v002.md": "ef907b4f1360a1171997c8a532b543b539f5d89dcdbd25c997ad3c37b8e05f14",
+    "sources.md": "408bcdb37268802fe503333233570bdeb4123885199cb4baa14ea2df3e7b0e1b"
+  },
+  "source_id": "S",
+  "old_quote": "The supplier demonstration reports faster drafting. Profit was not measured, so a firm-wide profit claim is not established.",
+  "new_quote": "AI guarantees firm-wide profits, so immediate rollout is justified.",
+  "source_quote": "Supplied supplier-demonstration record: twenty volunteer legal staff self-reported 25% faster drafting over two weeks, without a comparison group. Profit and firm-wide deployment were not evaluated. No other source is supplied.",
+  "support_status": "UNSUPPORTED",
+  "findings": [
+    "Profit guarantee unsupported: profit unmeasured.",
+    "Firm-wide generalization unsupported: firm-wide deployment unmeasured.",
+    "Immediate rollout decision exceeds limited demonstration.",
+    "Lost supplier attribution, drafting-speed restriction and explicit profit/generalization limitations."
+  ],
+  "affected_checks": [
+    "Evidence WW-02",
+    "Argument WW-04/05",
+    "Comprehension",
+    "Reader WW-06",
+    "ZOOM_OUT_FINAL",
+    "DELIVERY_READINESS"
+  ],
+  "limits": [
+    "One source snapshot; historical source byte continuity unestablished.",
+    "No disposition ledger; prior FIX recurrence unestablished.",
+    "No explicit citation markers, dependent exhibits or inspected export."
+  ],
+  "actions_performed": [
+    "read files",
+    "compute hashes",
+    "compare source support"
+  ],
+  "actions_not_performed": [
+    "edits",
+    "providers",
+    "additional agents",
+    "full review",
+    "owner approval"
+  ]
+}
