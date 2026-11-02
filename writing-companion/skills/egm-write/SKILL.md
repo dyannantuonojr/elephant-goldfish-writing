@@ -14,17 +14,19 @@ Honor the requested action: draft, review, revise or polish. Infer **paper** or 
 
 Read the complete supplied assignment/brief, rubric, model, draft and relevant source text. Extract audience, purpose or decision, genre, length, citation style, output format and constraints into a short brief. Use supplied answers rather than reopening intake. Models guide structure and depth; personal experiences and facts belong to their actual authors.
 
-Use [paper standards](../../resources/paper.md) or [work standards](../../resources/work.md), plus the shared [review contract](../../resources/review-contract.md).
+Use [paper standards](../../resources/paper.md) or [work standards](../../resources/work.md), plus [Wallace and Wray](../../resources/wallace-wray.md) and the shared [review contract](../../resources/review-contract.md). Apply the named standard during writing and return role-scoped `ww_review` checks during substantive review.
 
 ## Write and preserve
 
 Build a connected argument appropriate to the genre. Support material claims with inspected passages; distinguish evidence, inference, recommendations and assumptions. Save immutable versions and keep working notes outside reader-facing prose. Do not invent sources, quotations, personal reflections, approvals or business results. If an essential input is unavailable, draft the supported portions and identify exactly what remains unknown.
 
-For a substantial document, use the user's chosen artifact folder or a new `writing/<document-slug>/` folder: `brief.md`, `draft-v001.md`, `sources.md`, `reviews/v001/` and `dispositions-v001.md`. Keep confidential source text local; do not publish it or send it to new providers through this skill. Never overwrite an existing version. The source ledger records location, access scope, inspected quotation and supported claim; a URL is a locator, not inspected evidence.
+For a substantial document, use the user's chosen artifact folder or a new `writing/<document-slug>/` folder: `brief.md`, `writer-notes.md`, `draft-v001.md`, `sources.md`, `reviews/v001/` and `dispositions-v001.md`. Keep confidential source text local; do not publish it or send it to new providers through this skill. Never overwrite an existing version. The source ledger records location, access scope, inspected quotation and supported claim; a URL is a locator, not inspected evidence.
 
 ## Read independently
 
-When independent review is requested or materially useful, follow the review contract. Freeze the exact draft and SHA-256. Give each reader its [evidence](../../agents/evidence.md), [argument](../../agents/argument.md) or [reader](../../agents/reader.md) persona, brief, selected standard, exact draft and source material. Use fresh-context delegation without conversation history, writer explanations or other reviewers' findings. Existing harness delegation instructions govern transport and identity.
+The **Elephant** is this persistent writer: retain the brief, source synopses, decisions and limitations across drafting and resolution. Resume from those durable notes after compaction; do not replace the writer with a fresh reviewer. The **Goldfish** are independent readers.
+
+When independent review is requested or materially useful, follow the review contract. Freeze the exact draft and SHA-256. Give each reader its [evidence](../../agents/evidence.md), [argument](../../agents/argument.md) or [reader](../../agents/reader.md) persona, brief, selected standard, exact draft and source material. Use fresh-context delegation without conversation history, writer explanations or other reviewers' findings. Existing harness delegation instructions govern transport and identity. Record actual dispatch identities/context mode and verify each returned draft hash before accepting its findings; the contract defines the evidence.
 
 If no fresh-context tool exists, label any author review **SELF_REVIEW** and independent review **NOT_RUN**; never simulate reviewers. A failed or missing report is not zero findings. Readers return notes, not manuscript edits or new research calls.
 

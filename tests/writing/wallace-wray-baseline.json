@@ -1,0 +1,17 @@
+{
+  "control": "ww_baseline",
+  "task": "/root/ww_baseline",
+  "version": "0.1.0 instructions",
+  "input": "Synthetic three-paragraph comparison provided in task text, not a saved draft file",
+  "actual_behavior": [
+    "Detected unsupported profit generalization",
+    "Detected immediate-rollout inference",
+    "Detected serial summaries without a reasoned trade-off"
+  ],
+  "readiness": "REVISE",
+  "omitted_contract_fields": [
+    "ww_review",
+    "source_synopses"
+  ],
+  "interpretation": "The old companion already identified substantive reasoning problems; no claim of measured quality improvement. The added standard makes source synopsis dimensions and role-scoped judgments explicit and auditable."
+}

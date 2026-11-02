@@ -1,0 +1,128 @@
+{
+  "trial": "wallace-wray-review-only",
+  "writer_identity": "/root/ww_workflow",
+  "reviewed_version": "v001",
+  "draft_sha256_before_and_after": "3c310c571dd64625be89edef14a1919990051a5abdcd5520c24d270bca8f9697",
+  "draft_unchanged": true,
+  "writer_context_retained": true,
+  "writer_notes_excluded_from_all_prompts": true,
+  "exact_dispatch_arguments": [
+    {
+      "task_name": "ww_evidence",
+      "fork_turns": "none",
+      "message": "Act as the evidence reader for a read-only synthetic short-paper review. Read only these files: C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/agents/evidence.md; C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/paper.md; C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/wallace-wray.md; C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/review-contract.md; C:/Users/dyann/Projects/elephant-goldfish-writing/tests/writing/fixtures/wallace-wray/brief.md; C:/Users/dyann/Projects/elephant-goldfish-writing/tests/writing/fixtures/wallace-wray/draft-v001.md; C:/Users/dyann/Projects/elephant-goldfish-writing/tests/writing/fixtures/wallace-wray/sources.md. User request: Review this short paper discussion only; do not edit it or do research. Review version v001; independently compute the draft byte SHA-256 and return the actual hash. Return the review-contract JSON, including role-scoped ww_review, support_map and independently formed source_synopses. Treat supplied records as records, not full-article access. Do not mutate files, follow URLs, call research providers, read other files or ask owner questions. Return only the report. No writer notes or prior findings are supplied."
+    },
+    {
+      "task_name": "ww_argument",
+      "fork_turns": "none",
+      "message": "Act as the argument reader for a read-only synthetic short-paper review. Read only these files: C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/agents/argument.md; C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/paper.md; C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/wallace-wray.md; C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/review-contract.md; C:/Users/dyann/Projects/elephant-goldfish-writing/tests/writing/fixtures/wallace-wray/brief.md; C:/Users/dyann/Projects/elephant-goldfish-writing/tests/writing/fixtures/wallace-wray/draft-v001.md; C:/Users/dyann/Projects/elephant-goldfish-writing/tests/writing/fixtures/wallace-wray/sources.md. User request: Review this short paper discussion only; do not edit it or do research. Review version v001; independently compute the draft byte SHA-256 and return the actual hash. Return the review-contract JSON, including role-scoped ww_review and prose_links. Treat supplied records as records, not full-article access. Do not mutate files, follow URLs, call research providers, read other files or ask owner questions. Return only the report. No writer notes or prior findings are supplied."
+    },
+    {
+      "task_name": "ww_reader",
+      "fork_turns": "none",
+      "message": "Act as the reader and requirements reviewer for a read-only synthetic short-paper review. Read only these files: C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/agents/reader.md; C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/paper.md; C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/wallace-wray.md; C:/Users/dyann/Projects/elephant-goldfish-writing/writing-companion/resources/review-contract.md; C:/Users/dyann/Projects/elephant-goldfish-writing/tests/writing/fixtures/wallace-wray/brief.md; C:/Users/dyann/Projects/elephant-goldfish-writing/tests/writing/fixtures/wallace-wray/draft-v001.md; C:/Users/dyann/Projects/elephant-goldfish-writing/tests/writing/fixtures/wallace-wray/sources.md. User request: Review this short paper discussion only; do not edit it or do research. Review version v001; independently compute the draft byte SHA-256 and return the actual hash. Return the review-contract JSON, including role-scoped ww_review, requirement coverage and prose_links. Treat supplied records as records, not full-article access. Do not mutate files, follow URLs, call research providers, read other files or ask owner questions. Return only the report. No writer notes or prior findings are supplied."
+    }
+  ],
+  "readers": [
+    {
+      "identity": "/root/ww_workflow/ww_evidence",
+      "fork_turns": "none",
+      "status": "COMPLETE",
+      "reviewed_sha256": "3c310c571dd64625be89edef14a1919990051a5abdcd5520c24d270bca8f9697",
+      "ww_review": {
+        "standard_version": "ww-adapted-v1",
+        "checks": [
+          {
+            "id": "WW-01",
+            "status": "REPAIR"
+          },
+          {
+            "id": "WW-02",
+            "status": "REPAIR"
+          }
+        ]
+      }
+    },
+    {
+      "identity": "/root/ww_workflow/ww_argument",
+      "fork_turns": "none",
+      "status": "COMPLETE",
+      "reviewed_sha256": "3c310c571dd64625be89edef14a1919990051a5abdcd5520c24d270bca8f9697",
+      "ww_review": {
+        "standard_version": "ww-adapted-v1",
+        "checks": [
+          {
+            "id": "WW-03",
+            "status": "REPAIR"
+          },
+          {
+            "id": "WW-04",
+            "status": "REPAIR"
+          },
+          {
+            "id": "WW-05",
+            "status": "REPAIR"
+          }
+        ]
+      }
+    },
+    {
+      "identity": "/root/ww_workflow/ww_reader",
+      "fork_turns": "none",
+      "status": "COMPLETE",
+      "reviewed_sha256": "3c310c571dd64625be89edef14a1919990051a5abdcd5520c24d270bca8f9697",
+      "ww_review": {
+        "standard_version": "ww-adapted-v1",
+        "checks": [
+          {
+            "id": "WW-04",
+            "status": "REPAIR"
+          },
+          {
+            "id": "WW-05",
+            "status": "REPAIR"
+          },
+          {
+            "id": "WW-06",
+            "status": "REPAIR"
+          }
+        ]
+      }
+    }
+  ],
+  "actual_findings": [
+    "Uncontrolled self-reported drafting-time result is overstated as causal",
+    "Serial source summaries omit design, task and outcome comparison",
+    "Profit, broad professional-firm transfer and immediate firm-wide rollout exceed both source records"
+  ],
+  "evidence_reader_source_synopses": [
+    {
+      "source_id": "A",
+      "access_scope": "Supplied fictional source record only; full report, methods and raw data unavailable.",
+      "reading_purpose": "Assess whether reported drafting-time benefits support expansion of AI document assistance.",
+      "author_project": "The record identifies a supplier-authored pilot report and states that the author promotes its document-assistance product. A fuller author purpose cannot be established.",
+      "relevant_claims": "Twenty legal-office staff self-reported a 25% drafting-time reduction in a pre/post pilot without a comparison group. Profit and error rates were not measured.",
+      "evaluation": "Directly relevant to perceived drafting efficiency in a narrow setting, but self-report, lack of comparison and supplier interest limit causal confidence. The record supplies no basis for profit, quality or broad deployment conclusions; unavailable methods prevent further appraisal.",
+      "permitted_use": "Describe the reported pilot result with attribution and design limits. Use it to motivate a question or bounded evaluation, not to establish causal savings, increased profit or general applicability."
+    },
+    {
+      "source_id": "B",
+      "access_scope": "Supplied fictional source record only; full article methods, authors' wider purpose and raw data unavailable.",
+      "reading_purpose": "Assess the relationship between AI assistance, checking effort and classification quality when considering expansion.",
+      "author_project": "The record describes an independently authored randomized task experiment. The authors' wider purpose is explicitly unavailable.",
+      "relevant_claims": "Sixty accountants performed a classification task. AI assistance increased checking time and reduced classification errors. Profit was not measured and firm-wide deployment was not evaluated.",
+      "evaluation": "Randomization offers stronger design-level backing for the recorded task comparison than A's uncontrolled pilot, subject to unavailable methodological details. The result identifies an effort/quality tradeoff, not net financial benefit; task and population limits restrict transfer.",
+      "permitted_use": "Report the task-specific checking-time and error directions and use them to identify evaluation needs. Do not infer effect sizes, profit or firm-wide deployment success."
+    }
+  ],
+  "readiness": "REVISE",
+  "external_provider_calls": 0,
+  "execution_limit": "An initial argument spawn was rejected for thread capacity before any task identity was accepted; the identical request was accepted after capacity freed. No accepted review was duplicated.",
+  "record_scope": "Writer/test summaries and exact dispatch arguments retained; not an independent audit of host process isolation or complete raw tool transcripts. Role check details remain in original agent returns.",
+  "limits": [
+    "Supplied fictional source records only, not full articles",
+    "No actual profit, deployment or firm economic evidence",
+    "No model or exported document supplied",
+    "No source admission, layout acceptance or owner acceptance"
+  ]
+}

@@ -1,5 +1,7 @@
 # Paper standard
 
+Apply the [Wallace and Wray adaptation](wallace-wray.md) during source reading, drafting and substantive review. Its check IDs organize evidence, not grades.
+
 The actual assignment, rubric, instructor guidance, required template and explicit user directions govern. Infer no universal scholarly source minimum, dissertation structure, research methodology or reference style.
 
 ## Before writing

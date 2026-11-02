@@ -1,5 +1,7 @@
 # Work-document standard
 
+Apply the [Wallace and Wray adaptation](wallace-wray.md) during source reading, drafting and substantive review. Its check IDs organize evidence, not grades.
+
 Start with the actual reader, purpose and decision or action. Use the genre that helps that reader: memo, report, proposal, policy, procedure, briefing, business case or correspondence. Do not turn every task into a research paper.
 
 ## Decision and support

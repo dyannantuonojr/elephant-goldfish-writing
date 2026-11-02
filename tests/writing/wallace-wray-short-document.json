@@ -1,0 +1,15 @@
+{
+  "task": "/root/ww_short_document",
+  "mode": "work",
+  "genre": "Single-paragraph internal planning request",
+  "status": "COMPLETE",
+  "findings": [],
+  "actual_behavior": {
+    "WW-03": "NOT_APPLICABLE: source-free request with no source requirement",
+    "WW-04": "CHECKED: block function assessed; adjacent-paragraph evidence NOT_APPLICABLE",
+    "WW-05": "CHECKED: planning only, not sharing/spending authorization"
+  },
+  "readiness": "READY_WITHIN_REVIEWED_SCOPE",
+  "scope": "Supplied paragraph only; no operational feasibility or owner approval implied",
+  "change_reason": "Independent package reviewer found unconditional adjacent-pair requirement in argument/shared contract; verified and corrected it before this trial."
+}

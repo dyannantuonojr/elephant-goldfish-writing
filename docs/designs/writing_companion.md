@@ -23,3 +23,9 @@ Default to one review, one writer revision and a focused recheck of material fix
 ## Validation
 
 Check independent plugin installation, bundled references, metadata, source/claim traceability, fresh-context behavior and upstream regressions. Exercise unsupported evidence, personal-input gaps, missing budget assumptions and review-unavailable cases. Record actual limits rather than invent a passing baseline.
+
+## Wallace and Wray extension
+
+The owner requested Wallace and Wray writing standards and an audit of Elephant/Goldfish behavior. Implement a bundled, source-attributed adaptation in both modes rather than relying on the model to remember the book. The writer records purpose-led source evaluations, a synthesis position and claim boundaries. Fresh readers independently inspect the original source material and return explicit role-scoped reasoning checks, passage evidence and gaps. Durable writer context remains with the writer; it is not copied into blind reviewer contexts. Existing brief, source and scope limits still govern.
+
+Concepts are grounded in the authors' actual book/excerpt and linked to publisher resources; do not redistribute source text or claim verification of the latest edition. The companion's check IDs, status values, evidence fields and one-review budget are local implementation choices. No formula, score, reviewer count or dissertation section layout is attributed to Wallace and Wray.

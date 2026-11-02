@@ -1,0 +1,51 @@
+{
+  "standard": "ww-adapted-v1",
+  "attribution": "Concept adaptation, not an official Wallace/Wray instrument",
+  "sources": [
+    {
+      "title": "Critical Reading and Writing for Postgraduates",
+      "authors": [
+        "Mike Wallace",
+        "Alison Wray"
+      ],
+      "edition": "Second",
+      "year": 2011,
+      "url": "https://masteremergencyarchitecture.uic.es/wp-content/uploads/2014/11/Critical_Reading_and_Writing_for_Postgraduates.pdf",
+      "inspected_scope": "Targeted extracted passages on comparison, claim certainty/generalization, values and whole-argument linkage",
+      "printed_locations": [
+        "54-56",
+        "82-86",
+        "113-114",
+        "195"
+      ],
+      "full_book_read_claimed": false
+    },
+    {
+      "title": "Getting Started on Critical Reading",
+      "book_edition": "Fourth",
+      "url": "https://fenix.iseg.ulisboa.pt/downloadFile/563083097452349/Wallace_Wray_2021_Capt4.pdf",
+      "inspected_scope": "Chapter excerpt, especially five synopsis dimensions and use limits",
+      "printed_locations": [
+        "44-49"
+      ]
+    },
+    {
+      "title": "SAGE fourth-edition student resources",
+      "url": "https://study.sagepub.com/wallaceandwray4e",
+      "use": "Publisher corroboration of edition and resource availability"
+    },
+    {
+      "title": "SAGE fifth-edition student resources",
+      "url": "https://study.sagepub.com/wallaceandwray5e/student-resources",
+      "use": "Resource availability only; no full fifth-edition reading claimed"
+    }
+  ],
+  "unavailable_route": "SAGE public chapter URL 74769 returned an inaccessible redirect; inspected the authors chapter/book content at university-hosted URLs instead. No unavailable fetch labelled successful.",
+  "local_choices": [
+    "WW check IDs and status values",
+    "Role assignments and report fields",
+    "Version/hash/dispatch records",
+    "One review, one revision, focused recheck budget"
+  ],
+  "copyright": "No book PDF or publisher template bundled"
+}
