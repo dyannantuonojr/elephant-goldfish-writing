@@ -1,0 +1,33 @@
+{
+  "trial": "paper-review-only",
+  "status": "COMPLETE",
+  "actual_reviewed_sha256": "d157db0a89cbdcf3f8ede1adbe1faa4e850360652b7b9d4f77a1b6f01ad6b998",
+  "draft_unchanged": true,
+  "action": "REVIEW_ONLY",
+  "fresh_context": true,
+  "history": "none",
+  "reader_statuses": {
+    "evidence": "COMPLETE",
+    "argument": "COMPLETE",
+    "reader": "COMPLETE"
+  },
+  "actual_tasks": [
+    "/root/paper_trial/evidence",
+    "/root/paper_trial/argument",
+    "/root/paper_trial/reader"
+  ],
+  "observed_findings": [
+    "Handling time misrepresented as universal profit effect",
+    "Unauthenticated internship/personal reflection",
+    "Removal of human review contradicts supplied source",
+    "Missing challenges, limitations and three required peer-reviewed studies"
+  ],
+  "readiness": "REVISE",
+  "external_provider_calls": 0,
+  "limits": [
+    "Only supplied V1 excerpt inspected",
+    "No scholarly bodies or authentic personal input supplied",
+    "No render inspected"
+  ],
+  "exact_readiness": "Review complete; I did not edit your draft. This paper is not ready to submit. It misstates the pilot result, makes unsupported personal and profit claims, recommends removing human review without supporting evidence, and lacks the required challenges, limitations, three peer-reviewed studies and genuine course reflection."
+}

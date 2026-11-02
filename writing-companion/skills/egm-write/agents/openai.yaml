@@ -1,0 +1,4 @@
+interface:
+  display_name: "Elephant-Goldfish Writing"
+  short_description: "Draft and review papers and work documents"
+  default_prompt: "Use $egm-write to draft, review or revise this document for its audience and evidence."

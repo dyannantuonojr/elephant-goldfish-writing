@@ -1,0 +1,45 @@
+{
+  "trial": "work-evidence-review",
+  "task": "/root/work_trial",
+  "reviewer": "evidence",
+  "status": "COMPLETE",
+  "reviewed_version": "v001",
+  "reviewed_sha256": "b259addf23ab8c5d57227e82acf11f842b59c90e3969e555bf625fc57b1f5c4b",
+  "fresh_context": true,
+  "readiness": "REVISE",
+  "coverage": "Entire draft, work brief, S1 source assumptions and all numerical/financial/integration/ownership/timing claims",
+  "findings": [
+    {
+      "id": "evidence-v001-1",
+      "issue": "Unsupported $120,000 cash savings and guarantee"
+    },
+    {
+      "id": "evidence-v001-2",
+      "issue": "Immediate payback, missing whole-team scope and total license budget"
+    },
+    {
+      "id": "evidence-v001-3",
+      "issue": "Unsupported integration certainty"
+    },
+    {
+      "id": "evidence-v001-4",
+      "issue": "Invented assigned owner and next-week schedule"
+    },
+    {
+      "id": "evidence-v001-5",
+      "issue": "Unconditional purchase recommendation omits required risks/evidence"
+    }
+  ],
+  "support_map_entries": 10,
+  "actual_supported_assumptions": [
+    "80 users",
+    "$20/user/month",
+    "10 hours/week total team estimate"
+  ],
+  "external_provider_calls": 0,
+  "limits": [
+    "Synthetic assumptions only, not verified vendor quote",
+    "Currency code unspecified",
+    "No actual integration, labor valuation, implementation owner or timeline evidence"
+  ]
+}

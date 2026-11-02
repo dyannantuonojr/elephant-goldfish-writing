@@ -116,9 +116,9 @@ def test_compatibility_metadata_matches_root(path: str) -> None:
 def test_marketplace_resolves_shared_package(path: str) -> None:
   canonical = read_json("plugin.json")
   marketplace = read_json(path)
-  assert marketplace["name"] == "egm"
-  assert len(marketplace["plugins"]) == 1
-  entry = marketplace["plugins"][0]
+  assert marketplace["name"] == ("egm-writing-fork" if path.startswith(".agents/") else "egm")
+  assert len(marketplace["plugins"]) == (2 if path.startswith(".agents/") else 1)
+  entry = next(item for item in marketplace["plugins"] if item["name"] == canonical["name"])
   assert entry["name"] == canonical["name"]
   assert (ROOT / entry["source"]).resolve() == ROOT
   if "description" in entry:

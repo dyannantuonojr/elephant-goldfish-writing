@@ -1,3 +1,5 @@
+> **Writing fork:** The independently installable [Elephant-Goldfish Writing companion](https://github.com/dyannantuonojr/elephant-goldfish-writing/tree/feat/writing-companion/writing-companion) adds papers and professional documents. The original software workflow below is unchanged.
+
 <p align="center">
   <a href="https://egm.dev"><img src="docs/assets/readme-header.svg" width="480" height="116" alt="Elephant-Goldfish Model"></a>
 </p>

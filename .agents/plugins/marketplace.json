@@ -1,12 +1,21 @@
 {
-  "name": "egm",
+  "name": "egm-writing-fork",
   "interface": {
-    "displayName": "Elephant-Goldfish Model"
+    "displayName": "EGM Writing Fork"
   },
   "plugins": [
     {
       "name": "egm",
       "source": "./",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "egm-writing",
+      "source": "./writing-companion",
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
