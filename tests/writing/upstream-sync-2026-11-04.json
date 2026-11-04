@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-04",
+  "writing_parent": "0b8cf287cdd258df32bffa13fcc62e783b4e642f",
+  "upstream": "0dfb5bf3eebd551d1e805c3ab16cbaa9b1c2c42a",
+  "upstream_commits_integrated": 27,
+  "preserved": [
+    "README.md",
+    "distributions/claude/README.md",
+    "writing-companion/ (all files including Wallace-Wray)",
+    "tests/writing/stages-full-run/ original artifacts",
+    ".agents/plugins/marketplace.json"
+  ],
+  "conflict_resolution": "Two README conflicts resolved with exact writing-branch bytes; all other upstream changes merged. Existing CI push trigger extended to the default writing branch.",
+  "local_tests": {
+    "command": "Git for Windows bin prepended to process PATH; .venv/Scripts/python.exe -m pytest tests/unit -ra --tb=no",
+    "passed": 326,
+    "failed": 15,
+    "skipped": 3,
+    "failure_basis": "Every remaining failure is real symlink creation blocked with WinError 1314; ten existing packaging cases and five newly merged OpenCode adapter cases. No assertions skipped or protections weakened.",
+    "failed_cases": [
+      "tests.unit.test_opencode_adapter::test_install_preserves_resources_and_native_contract",
+      "tests.unit.test_opencode_adapter::test_stage_required_reports_preserve_context_boundary",
+      "tests.unit.test_opencode_adapter::test_symlink_parent_cannot_bypass_path_validation",
+      "tests.unit.test_opencode_adapter::test_dangling_destination_is_untouched",
+      "tests.unit.test_opencode_adapter::test_required_reads_pass_env_rules",
+      "tests.unit.test_packaging::test_rejects_symlinked_runtime_paths[False]",
+      "tests.unit.test_packaging::test_rejects_symlinked_runtime_paths[True]",
+      "tests.unit.test_packaging::test_rejects_dangling_output_symlinks[-claude]",
+      "tests.unit.test_packaging::test_rejects_dangling_output_symlinks[-openai]",
+      "tests.unit.test_packaging::test_rejects_dangling_output_symlinks[.zip-claude]",
+      "tests.unit.test_packaging::test_rejects_dangling_output_symlinks[.zip-openai]",
+      "tests.unit.test_packaging::test_archive_claimed_after_preflight_is_not_overwritten[dangling-symlink-claude]",
+      "tests.unit.test_packaging::test_archive_claimed_after_preflight_is_not_overwritten[dangling-symlink-openai]",
+      "tests.unit.test_packaging::test_archive_claimed_after_preflight_is_not_overwritten[symlink-claude]",
+      "tests.unit.test_packaging::test_archive_claimed_after_preflight_is_not_overwritten[symlink-openai]"
+    ],
+    "initial_shell_issue": "Initial run selected an unusable WSL bash launcher. Correct process-local Git Bash selection resolved both additional shell failures.",
+    "dependencies": {
+      "pytest": "8.3.5",
+      "PyYAML": "6.0.2"
+    },
+    "junit_sha256": "3ef3d33cb75a8dd8a4995ea23ff1fc0f574760684e14ee366cbf993de3c39d66"
+  },
+  "skill_validation": "PASS",
+  "hosted_ci": "PENDING actual Linux/Windows/site run after push; local permission failures are not passing evidence."
+}
