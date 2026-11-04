@@ -42,5 +42,53 @@
     "junit_sha256": "3ef3d33cb75a8dd8a4995ea23ff1fc0f574760684e14ee366cbf993de3c39d66"
   },
   "skill_validation": "PASS",
-  "hosted_ci": "PENDING actual Linux/Windows/site run after push; local permission failures are not passing evidence."
+  "hosted_ci": {
+    "run_id": 41916877405,
+    "url": "https://github.com/dyannantuonojr/elephant-goldfish-writing/actions/runs/41916877405",
+    "tested_merge_commit": "e705f4510070e1978c2de0b1fc9f829b8dc29fef",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "unit (windows-2025)",
+        "conclusion": "success",
+        "url": "https://github.com/dyannantuonojr/elephant-goldfish-writing/actions/runs/41916877405/job/126878776624"
+      },
+      {
+        "name": "unit (ubuntu-24.04)",
+        "conclusion": "success",
+        "url": "https://github.com/dyannantuonojr/elephant-goldfish-writing/actions/runs/41916877405/job/126878776916"
+      },
+      {
+        "name": "site-validation",
+        "conclusion": "success",
+        "url": "https://github.com/dyannantuonojr/elephant-goldfish-writing/actions/runs/41916877405/job/126878776974"
+      },
+      {
+        "name": "CI",
+        "conclusion": "success",
+        "url": "https://github.com/dyannantuonojr/elephant-goldfish-writing/actions/runs/41916877405/job/126879317360"
+      }
+    ],
+    "actual_unit_summaries": {
+      "windows-2025": {
+        "passed": 341,
+        "skipped": 3
+      },
+      "ubuntu-24.04": {
+        "passed": 342,
+        "skipped": 2
+      }
+    },
+    "symlink_basis": "Both complete hosted unit jobs executed successfully without exclusions. Real packaging and OpenCode symlink assertions passed on these runners. Local Windows privilege failures remain truthful local limits."
+  },
+  "installed_writing_companion": {
+    "version": "0.3.0",
+    "files_compared": 21,
+    "all_bytes_match": true,
+    "marketplace_refresh_errors": []
+  },
+  "upstream_comparison_after_merge": {
+    "upstream_only_commits": 0,
+    "basis": "Actual GitHub comparison against google:main after merge"
+  }
 }
